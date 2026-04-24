@@ -1,0 +1,55 @@
+{
+  "risk_tiers": {
+    "High Risk":   {"min": 75, "max": 100},
+    "Medium Risk": {"min": 55, "max": 74.9},
+    "Low Risk":    {"min": 35, "max": 54.9},
+    "Strong":      {"min": 0,  "max": 34.9}
+  },
+  "risk_weights": {
+    "attendance":  0.25,
+    "assignment":  0.25,
+    "mc_score":    0.25,
+    "project":     0.20,
+    "ta_sessions": 0.05
+  },
+  "attendance": {
+    "red_threshold":   60,
+    "amber_threshold": 75,
+    "green_threshold": 85,
+    "recorded_min_watch_pct": 40,
+    "ghost_days_inactive": 7,
+    "ghost_2w_att_threshold": 0
+  },
+  "assignment": {
+    "red_threshold":   50,
+    "amber_threshold": 74,
+    "green_threshold": 75,
+    "on_time_threshold": 65
+  },
+  "mc_score": {
+    "clearance_threshold": 64,
+    "weak_threshold": 45,
+    "red_threshold": 40
+  },
+  "project": {
+    "pass_threshold": 8,
+    "blocker_att_min": 70,
+    "blocker_asgn_min": 80
+  },
+  "ta_sessions": {
+    "flag_zero_by_class": 8,
+    "critical_zero_by_class": 14,
+    "monthly_min": 1
+  },
+  "portal_inactivity": {
+    "email_days": 5,
+    "call_days": 7,
+    "ghost_days": 7
+  },
+  "risk_tier_actions": {
+    "High Risk":   "Immediate call — review all metrics before dialling",
+    "Medium Risk": "Priority nudge — focus on weakest metric",
+    "Low Risk":    "Routine check-in — reinforce positive momentum",
+    "Strong":      "Grooming / placement conversation opportunity"
+  }
+}
