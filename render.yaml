@@ -10,5 +10,7 @@ services:
         sync: false
       - key: METABASE_EMAIL
         value: ashritha.k@newtonschool.co
+      - key: METABASE_PASSWORD
+        value: H0CcPtgDa3ZN9b
       - key: PYTHON_VERSION
         value: 3.11.0

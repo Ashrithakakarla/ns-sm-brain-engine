@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual envs
+venv/
+.venv/
+env/
+
+# Logs
+*.log
+refresh.log
+
+# Secrets (never commit these)
+.env
+*.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# DO NOT ignore last_refresh.json — it must be committed for Render to have data
+# !last_refresh.json  ← already tracked, listed here as a reminder
