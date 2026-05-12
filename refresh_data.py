@@ -16,8 +16,11 @@ OUTPUT_PATH     = os.path.join(os.path.dirname(os.path.abspath(__file__)), "last
 BATCH_CONFIGS = {
        # "February 2026 Spreadsheets": {"au_id": 2622, "lu_id": 3308},
        "February 2026 SQL": {"au_id": 2622, "lu_id": 3380},
-       # "March 2026 Spreadsheets": {"au_id": 3240, "lu_id": 3355}
-       "April 2026 Spreadsheets": {"au_id": 3241, "lu_id": 3402}
+       "Jan 2026 SQL": {"au_id": 2621, "lu_id": 3327},
+       # "March 2026 Spreadsheets": {"au_id": 3240, "lu_id": 3355},
+       "April 2026 Spreadsheets": {"au_id": 3241, "lu_id": 3402},
+       "May 2026 Spreadsheets": {"au_id": 3242, "lu_id": 3478},
+       "March 2026 SQL": {"au_id": 3240, "lu_id": 3461}
 
       }
 EXCLUDED_LABELS = (677, 717, 722)
@@ -473,17 +476,34 @@ def fetch_contests_card(token, lu_id, ids, batch_name=""):
     mid_by_user = build_contests(mid_mcq_rows, mid_coding_rows, "Mid Module Contest")
 
     # Build final contest dict: mc1=first attempt, mc2=second, mc3=third, mid_mc=best mid
+    # Determine current module based on batch name to filter mid module contests
+    _bn = batch_name.lower()
+    current_module = "DS 04 SQL" if "sql" in _bn else "DS 05 Python" if "python" in _bn else "DS 02 Spreadsheets"
+
     mc_clearance = 64.0
     contest_by = {}
     for uid in id_set:
         mc_attempts = mc_by_user.get(uid, [])
-        mid_attempts = mid_by_user.get(uid, [])
+        all_mid_attempts = mid_by_user.get(uid, [])
+
+        # Filter mid attempts to only include current module contests
+        # Check if title contains module indicator (SQL/Spreadsheet/Python)
+        mid_attempts = []
+        for attempt in all_mid_attempts:
+            title = attempt.get("title", "").lower()
+            # Include only contests matching current module
+            if current_module == "DS 04 SQL" and ("sql" in title or "structured query" in title):
+                mid_attempts.append(attempt)
+            elif current_module == "DS 02 Spreadsheets" and ("spreadsheet" in title or "excel" in title):
+                mid_attempts.append(attempt)
+            elif current_module == "DS 05 Python" and "python" in title:
+                mid_attempts.append(attempt)
 
         # MC1 = first attempt, MC2 = second, MC3 = third (by date)
         mc1 = mc_attempts[0] if len(mc_attempts) >= 1 else None
         mc2 = mc_attempts[1] if len(mc_attempts) >= 2 else None
 
-        # mid_mc attempts — up to 2 attempts, sorted by date
+        # mid_mc attempts — up to 2 attempts for CURRENT MODULE, sorted by date
         mid_mc1 = mid_attempts[0] if len(mid_attempts) >= 1 else None
         mid_mc2 = mid_attempts[1] if len(mid_attempts) >= 2 else None
         mid_mc = max(mid_attempts, key=lambda x: x["percentage"]) if mid_attempts else None

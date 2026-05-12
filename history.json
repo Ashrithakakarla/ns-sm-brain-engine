@@ -4090,5 +4090,5775 @@
         "inactive": 1
       }
     }
+  },
+  {
+    "date": "2026-05-06",
+    "students": {
+      "2344472": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "527706": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3085939": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "1639853": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3112964": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2307780": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2273472": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3076190": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2807416": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3143342": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "121059": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2491816": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3124259": {
+        "risk": 99.8,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 999
+      },
+      "3291638": {
+        "risk": 97.9,
+        "att": 8.3,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3178132": {
+        "risk": 95.8,
+        "att": 16.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3013809": {
+        "risk": 94.2,
+        "att": 21.4,
+        "asgn": 0.0,
+        "mc": 2.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3296406": {
+        "risk": 91.7,
+        "att": 8.3,
+        "asgn": 25.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3091295": {
+        "risk": 89.4,
+        "att": 7.1,
+        "asgn": 33.3,
+        "mc": 2.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3135887": {
+        "risk": 86.8,
+        "att": 35.7,
+        "asgn": 0.0,
+        "mc": 12.0,
+        "proj_best": 0.0,
+        "ta": 5,
+        "inactive": 999
+      },
+      "3130440": {
+        "risk": 84.6,
+        "att": 35.7,
+        "asgn": 0.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 999
+      },
+      "3068820": {
+        "risk": 80.7,
+        "att": 0.0,
+        "asgn": 75.4,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 0
+      },
+      "3075147": {
+        "risk": 80.7,
+        "att": 35.7,
+        "asgn": 16.7,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 34
+      },
+      "3093800": {
+        "risk": 79.8,
+        "att": 35.7,
+        "asgn": 20.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 2
+      },
+      "876315": {
+        "risk": 74.6,
+        "att": 35.7,
+        "asgn": 42.9,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 42
+      },
+      "3314487": {
+        "risk": 73.8,
+        "att": 41.7,
+        "asgn": 63.3,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "1130781": {
+        "risk": 73.5,
+        "att": 50.0,
+        "asgn": 40.0,
+        "mc": 8.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 42
+      },
+      "3289766": {
+        "risk": 72.5,
+        "att": 16.7,
+        "asgn": 69.2,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 16
+      },
+      "3106302": {
+        "risk": 70.4,
+        "att": 42.9,
+        "asgn": 52.6,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 35
+      },
+      "3271996": {
+        "risk": 69.6,
+        "att": 25.0,
+        "asgn": 91.7,
+        "mc": 5.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 13
+      },
+      "2233952": {
+        "risk": 69.0,
+        "att": 57.1,
+        "asgn": 65.8,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 15
+      },
+      "2659952": {
+        "risk": 68.0,
+        "att": 7.1,
+        "asgn": 42.9,
+        "mc": 22.0,
+        "proj_best": 7.0,
+        "ta": 0,
+        "inactive": 35
+      },
+      "2904872": {
+        "risk": 66.7,
+        "att": 21.4,
+        "asgn": 57.7,
+        "mc": 0.0,
+        "proj_best": 6.0,
+        "ta": 6,
+        "inactive": 1
+      },
+      "1496842": {
+        "risk": 65.8,
+        "att": 91.7,
+        "asgn": 45.1,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 7
+      },
+      "3122448": {
+        "risk": 65.6,
+        "att": 85.7,
+        "asgn": 26.9,
+        "mc": 6.0,
+        "proj_best": 0.0,
+        "ta": 19,
+        "inactive": 16
+      },
+      "3080128": {
+        "risk": 64.8,
+        "att": 57.1,
+        "asgn": 61.8,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2120159": {
+        "risk": 64.4,
+        "att": 91.7,
+        "asgn": 46.7,
+        "mc": 4.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "2057054": {
+        "risk": 63.6,
+        "att": 35.7,
+        "asgn": 90.0,
+        "mc": 6.0,
+        "proj_best": 1.0,
+        "ta": 6,
+        "inactive": 10
+      },
+      "3332693": {
+        "risk": 62.7,
+        "att": 33.3,
+        "asgn": 94.1,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "2495595": {
+        "risk": 62.6,
+        "att": 35.7,
+        "asgn": 91.8,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 20
+      },
+      "3286440": {
+        "risk": 61.9,
+        "att": 33.3,
+        "asgn": 85.2,
+        "mc": 34.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3288442": {
+        "risk": 60.9,
+        "att": 66.7,
+        "asgn": 61.7,
+        "mc": 28.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3086414": {
+        "risk": 59.5,
+        "att": 71.4,
+        "asgn": 90.5,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3091720": {
+        "risk": 59.2,
+        "att": 83.3,
+        "asgn": 79.7,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "762091": {
+        "risk": 58.7,
+        "att": 83.3,
+        "asgn": 48.8,
+        "mc": 33.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 9
+      },
+      "3078942": {
+        "risk": 58.1,
+        "att": 35.7,
+        "asgn": 84.9,
+        "mc": 20.0,
+        "proj_best": 3.0,
+        "ta": 3,
+        "inactive": 5
+      },
+      "3310488": {
+        "risk": 57.1,
+        "att": 66.7,
+        "asgn": 50.9,
+        "mc": 54.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 8
+      },
+      "1995124": {
+        "risk": 55.9,
+        "att": 50.0,
+        "asgn": 94.5,
+        "mc": 0.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 7
+      },
+      "1997479": {
+        "risk": 55.5,
+        "att": 64.3,
+        "asgn": 98.9,
+        "mc": 15.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "1997710": {
+        "risk": 54.3,
+        "att": 100.0,
+        "asgn": 52.9,
+        "mc": 30.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3326177": {
+        "risk": 53.9,
+        "att": 75.0,
+        "asgn": 67.4,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "3306246": {
+        "risk": 53.6,
+        "att": 100.0,
+        "asgn": 80.5,
+        "mc": 5.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 15
+      },
+      "3075710": {
+        "risk": 53.5,
+        "att": 66.7,
+        "asgn": 88.2,
+        "mc": 31.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "3092952": {
+        "risk": 52.6,
+        "att": 64.3,
+        "asgn": 73.2,
+        "mc": 0.0,
+        "proj_best": 6.0,
+        "ta": 4,
+        "inactive": 12
+      },
+      "2931975": {
+        "risk": 52.5,
+        "att": 57.1,
+        "asgn": 85.7,
+        "mc": 23.0,
+        "proj_best": 3.0,
+        "ta": 0,
+        "inactive": 37
+      },
+      "3135822": {
+        "risk": 52.4,
+        "att": 85.7,
+        "asgn": 80.8,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 7
+      },
+      "3298792": {
+        "risk": 52.3,
+        "att": 41.7,
+        "asgn": 97.1,
+        "mc": 52.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 11
+      },
+      "3296338": {
+        "risk": 52.2,
+        "att": 75.0,
+        "asgn": 76.0,
+        "mc": 40.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 11
+      },
+      "1994176": {
+        "risk": 52.2,
+        "att": 66.7,
+        "asgn": 92.5,
+        "mc": 12.0,
+        "proj_best": 0.0,
+        "ta": 20,
+        "inactive": 6
+      },
+      "1310850": {
+        "risk": 52.1,
+        "att": 75.0,
+        "asgn": 67.4,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 5
+      },
+      "3306763": {
+        "risk": 51.8,
+        "att": 66.7,
+        "asgn": 80.9,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3015239": {
+        "risk": 50.7,
+        "att": 85.7,
+        "asgn": 88.4,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3286057": {
+        "risk": 50.6,
+        "att": 91.7,
+        "asgn": 88.0,
+        "mc": 18.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 6
+      },
+      "3092576": {
+        "risk": 49.1,
+        "att": 71.4,
+        "asgn": 80.0,
+        "mc": 20.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3288637": {
+        "risk": 48.9,
+        "att": 91.7,
+        "asgn": 74.6,
+        "mc": 38.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 7
+      },
+      "2989544": {
+        "risk": 48.6,
+        "att": 100.0,
+        "asgn": 71.6,
+        "mc": 15.0,
+        "proj_best": 0.0,
+        "ta": 19,
+        "inactive": 10
+      },
+      "3249527": {
+        "risk": 48.0,
+        "att": 100.0,
+        "asgn": 78.2,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 4,
+        "inactive": 1
+      },
+      "3319907": {
+        "risk": 47.7,
+        "att": 91.7,
+        "asgn": 88.5,
+        "mc": 29.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3282444": {
+        "risk": 47.6,
+        "att": 100.0,
+        "asgn": 70.7,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "3319680": {
+        "risk": 46.7,
+        "att": 100.0,
+        "asgn": 92.2,
+        "mc": 20.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 7
+      },
+      "3280390": {
+        "risk": 46.7,
+        "att": 100.0,
+        "asgn": 77.2,
+        "mc": 36.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3294066": {
+        "risk": 46.4,
+        "att": 91.7,
+        "asgn": 96.6,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3052427": {
+        "risk": 46.3,
+        "att": 42.9,
+        "asgn": 100.0,
+        "mc": 16.0,
+        "proj_best": 6.0,
+        "ta": 8,
+        "inactive": 35
+      },
+      "3278957": {
+        "risk": 46.3,
+        "att": 66.7,
+        "asgn": 100.0,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "1278026": {
+        "risk": 46.2,
+        "att": 83.3,
+        "asgn": 97.7,
+        "mc": 33.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 7
+      },
+      "3068589": {
+        "risk": 45.7,
+        "att": 78.6,
+        "asgn": 84.8,
+        "mc": 17.0,
+        "proj_best": 4.0,
+        "ta": 5,
+        "inactive": 0
+      },
+      "2632698": {
+        "risk": 45.6,
+        "att": 57.1,
+        "asgn": 93.5,
+        "mc": 23.0,
+        "proj_best": 3.0,
+        "ta": 23,
+        "inactive": 1
+      },
+      "1855193": {
+        "risk": 45.5,
+        "att": 100.0,
+        "asgn": 73.8,
+        "mc": 43.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 8
+      },
+      "3004572": {
+        "risk": 45.2,
+        "att": 57.1,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 5.0,
+        "ta": 0,
+        "inactive": 23
+      },
+      "2994864": {
+        "risk": 45.1,
+        "att": 100.0,
+        "asgn": 88.4,
+        "mc": 21.0,
+        "proj_best": 1.0,
+        "ta": 2,
+        "inactive": 4
+      },
+      "1477311": {
+        "risk": 45.1,
+        "att": 75.0,
+        "asgn": 96.7,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3302711": {
+        "risk": 45.0,
+        "att": 91.7,
+        "asgn": 96.5,
+        "mc": 32.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3278382": {
+        "risk": 44.8,
+        "att": 100.0,
+        "asgn": 79.7,
+        "mc": 41.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 6
+      },
+      "3275812": {
+        "risk": 44.6,
+        "att": 91.7,
+        "asgn": 88.0,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3095730": {
+        "risk": 44.5,
+        "att": 100.0,
+        "asgn": 91.0,
+        "mc": 23.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3321554": {
+        "risk": 44.3,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 0
+      },
+      "3314410": {
+        "risk": 43.4,
+        "att": 100.0,
+        "asgn": 93.5,
+        "mc": 33.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "331468": {
+        "risk": 43.1,
+        "att": 100.0,
+        "asgn": 85.4,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3281272": {
+        "risk": 43.1,
+        "att": 100.0,
+        "asgn": 93.5,
+        "mc": 34.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3315694": {
+        "risk": 43.1,
+        "att": 83.3,
+        "asgn": 96.4,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 7
+      },
+      "291440": {
+        "risk": 42.9,
+        "att": 71.4,
+        "asgn": 100.0,
+        "mc": 26.0,
+        "proj_best": 3.0,
+        "ta": 7,
+        "inactive": 2
+      },
+      "3280262": {
+        "risk": 42.6,
+        "att": 100.0,
+        "asgn": 95.5,
+        "mc": 31.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 0
+      },
+      "3306241": {
+        "risk": 42.4,
+        "att": 100.0,
+        "asgn": 82.5,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3095161": {
+        "risk": 42.2,
+        "att": 85.7,
+        "asgn": 91.6,
+        "mc": 20.0,
+        "proj_best": 4.0,
+        "ta": 2,
+        "inactive": 1
+      },
+      "1089542": {
+        "risk": 42.1,
+        "att": 91.7,
+        "asgn": 97.8,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "1662809": {
+        "risk": 41.7,
+        "att": 92.9,
+        "asgn": 93.4,
+        "mc": 15.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3142765": {
+        "risk": 41.7,
+        "att": 100.0,
+        "asgn": 93.1,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 2
+      },
+      "3301661": {
+        "risk": 41.6,
+        "att": 100.0,
+        "asgn": 96.7,
+        "mc": 37.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3169354": {
+        "risk": 41.6,
+        "att": 100.0,
+        "asgn": 96.7,
+        "mc": 37.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3309538": {
+        "risk": 41.5,
+        "att": 91.7,
+        "asgn": 94.2,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3254806": {
+        "risk": 41.3,
+        "att": 100.0,
+        "asgn": 96.7,
+        "mc": 37.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3059238": {
+        "risk": 41.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 7.0,
+        "proj_best": 3.0,
+        "ta": 5,
+        "inactive": 1
+      },
+      "1175353": {
+        "risk": 40.9,
+        "att": 100.0,
+        "asgn": 91.3,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3311014": {
+        "risk": 40.8,
+        "att": 91.7,
+        "asgn": 100.0,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "3287972": {
+        "risk": 40.6,
+        "att": 100.0,
+        "asgn": 96.6,
+        "mc": 34.0,
+        "proj_best": 0.0,
+        "ta": 7,
+        "inactive": 0
+      },
+      "3134479": {
+        "risk": 40.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 2.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "620478": {
+        "risk": 40.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 36.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 1
+      },
+      "3324141": {
+        "risk": 40.5,
+        "att": 100.0,
+        "asgn": 87.0,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "2635992": {
+        "risk": 40.4,
+        "att": 100.0,
+        "asgn": 96.6,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3293052": {
+        "risk": 40.3,
+        "att": 100.0,
+        "asgn": 89.9,
+        "mc": 49.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 7
+      },
+      "1102389": {
+        "risk": 40.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 4
+      },
+      "3325175": {
+        "risk": 40.0,
+        "att": 100.0,
+        "asgn": 98.2,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3307508": {
+        "risk": 40.0,
+        "att": 100.0,
+        "asgn": 97.8,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3319991": {
+        "risk": 39.9,
+        "att": 100.0,
+        "asgn": 97.6,
+        "mc": 43.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 8
+      },
+      "3192215": {
+        "risk": 39.9,
+        "att": 100.0,
+        "asgn": 95.5,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3291265": {
+        "risk": 39.6,
+        "att": 100.0,
+        "asgn": 95.5,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 7,
+        "inactive": 3
+      },
+      "3293898": {
+        "risk": 39.6,
+        "att": 100.0,
+        "asgn": 96.6,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "2768559": {
+        "risk": 39.5,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 43.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3090736": {
+        "risk": 39.4,
+        "att": 100.0,
+        "asgn": 95.4,
+        "mc": 23.0,
+        "proj_best": 3.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3083903": {
+        "risk": 39.3,
+        "att": 100.0,
+        "asgn": 97.8,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 0
+      },
+      "3050215": {
+        "risk": 39.1,
+        "att": 100.0,
+        "asgn": 94.5,
+        "mc": 49.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3314413": {
+        "risk": 39.1,
+        "att": 100.0,
+        "asgn": 96.6,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 5
+      },
+      "3311412": {
+        "risk": 39.1,
+        "att": 91.7,
+        "asgn": 100.0,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3124991": {
+        "risk": 39.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 1.0,
+        "ta": 14,
+        "inactive": 1
+      },
+      "3287699": {
+        "risk": 39.0,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3308228": {
+        "risk": 38.9,
+        "att": 100.0,
+        "asgn": 95.4,
+        "mc": 49.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 6
+      },
+      "2980468": {
+        "risk": 38.7,
+        "att": 78.6,
+        "asgn": 97.7,
+        "mc": 19.0,
+        "proj_best": 6.0,
+        "ta": 2,
+        "inactive": 4
+      },
+      "1546423": {
+        "risk": 38.6,
+        "att": 100.0,
+        "asgn": 97.7,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2953216": {
+        "risk": 38.5,
+        "att": 78.6,
+        "asgn": 87.4,
+        "mc": 23.0,
+        "proj_best": 7.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "2119765": {
+        "risk": 38.5,
+        "att": 100.0,
+        "asgn": 97.8,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "1310966": {
+        "risk": 38.3,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3121995": {
+        "risk": 38.1,
+        "att": 92.9,
+        "asgn": 88.5,
+        "mc": 6.0,
+        "proj_best": 5.0,
+        "ta": 48,
+        "inactive": 1
+      },
+      "3319578": {
+        "risk": 38.1,
+        "att": 100.0,
+        "asgn": 96.6,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3280415": {
+        "risk": 38.0,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3312602": {
+        "risk": 38.0,
+        "att": 100.0,
+        "asgn": 97.8,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 5
+      },
+      "3074443": {
+        "risk": 37.9,
+        "att": 71.4,
+        "asgn": 100.0,
+        "mc": 17.0,
+        "proj_best": 5.0,
+        "ta": 43,
+        "inactive": 2
+      },
+      "3063503": {
+        "risk": 37.8,
+        "att": 100.0,
+        "asgn": 92.9,
+        "mc": 22.0,
+        "proj_best": 4.0,
+        "ta": 2,
+        "inactive": 3
+      },
+      "3308250": {
+        "risk": 37.8,
+        "att": 100.0,
+        "asgn": 97.7,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3307932": {
+        "risk": 37.8,
+        "att": 100.0,
+        "asgn": 97.8,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "3284692": {
+        "risk": 37.8,
+        "att": 100.0,
+        "asgn": 96.7,
+        "mc": 52.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "1995289": {
+        "risk": 37.6,
+        "att": 100.0,
+        "asgn": 95.4,
+        "mc": 22.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "113107": {
+        "risk": 37.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 5,
+        "inactive": 1
+      },
+      "1076534": {
+        "risk": 37.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2991446": {
+        "risk": 37.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3294595": {
+        "risk": 37.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 5
+      },
+      "3070032": {
+        "risk": 37.0,
+        "att": 100.0,
+        "asgn": 86.2,
+        "mc": 18.0,
+        "proj_best": 6.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3294731": {
+        "risk": 36.8,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 54.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3084952": {
+        "risk": 36.6,
+        "att": 78.6,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 5.0,
+        "ta": 13,
+        "inactive": 8
+      },
+      "3089830": {
+        "risk": 36.6,
+        "att": 85.7,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 5.0,
+        "ta": 5,
+        "inactive": 4
+      },
+      "3112894": {
+        "risk": 36.5,
+        "att": 92.9,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 4.0,
+        "ta": 7,
+        "inactive": 0
+      },
+      "3309786": {
+        "risk": 36.3,
+        "att": 100.0,
+        "asgn": 97.8,
+        "mc": 54.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 6
+      },
+      "3059755": {
+        "risk": 36.2,
+        "att": 92.9,
+        "asgn": 93.1,
+        "mc": 20.0,
+        "proj_best": 5.0,
+        "ta": 9,
+        "inactive": 1
+      },
+      "3082406": {
+        "risk": 36.1,
+        "att": 92.9,
+        "asgn": 98.8,
+        "mc": 24.0,
+        "proj_best": 5.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "2093834": {
+        "risk": 36.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 54.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 1
+      },
+      "3065903": {
+        "risk": 35.8,
+        "att": 85.7,
+        "asgn": 78.9,
+        "mc": 18.0,
+        "proj_best": 7.0,
+        "ta": 18,
+        "inactive": 4
+      },
+      "3049151": {
+        "risk": 35.4,
+        "att": 71.4,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 25
+      },
+      "3045414": {
+        "risk": 35.3,
+        "att": 92.9,
+        "asgn": 84.8,
+        "mc": 23.0,
+        "proj_best": 6.0,
+        "ta": 10,
+        "inactive": 1
+      },
+      "3124787": {
+        "risk": 34.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 5.0,
+        "ta": 0,
+        "inactive": 8
+      },
+      "1842753": {
+        "risk": 33.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 5.0,
+        "ta": 3,
+        "inactive": 1
+      },
+      "3126261": {
+        "risk": 33.5,
+        "att": 92.9,
+        "asgn": 93.1,
+        "mc": 23.0,
+        "proj_best": 7.0,
+        "ta": 1,
+        "inactive": 2
+      },
+      "678577": {
+        "risk": 33.5,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 23.0,
+        "proj_best": 5.0,
+        "ta": 4,
+        "inactive": 0
+      },
+      "3049991": {
+        "risk": 33.3,
+        "att": 85.7,
+        "asgn": 93.1,
+        "mc": 23.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 5
+      },
+      "3054946": {
+        "risk": 33.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 3.0,
+        "ta": 20,
+        "inactive": 3
+      },
+      "2952376": {
+        "risk": 33.1,
+        "att": 85.7,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 6.0,
+        "ta": 12,
+        "inactive": 1
+      },
+      "3094307": {
+        "risk": 32.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 6.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3079862": {
+        "risk": 32.3,
+        "att": 92.9,
+        "asgn": 95.8,
+        "mc": 17.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3006359": {
+        "risk": 32.2,
+        "att": 92.9,
+        "asgn": 96.2,
+        "mc": 26.0,
+        "proj_best": 6.0,
+        "ta": 8,
+        "inactive": 29
+      },
+      "3063390": {
+        "risk": 31.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 6.0,
+        "ta": 4,
+        "inactive": 5
+      },
+      "3039875": {
+        "risk": 30.6,
+        "att": 85.7,
+        "asgn": 100.0,
+        "mc": 18.0,
+        "proj_best": 8.0,
+        "ta": 10,
+        "inactive": 1
+      },
+      "3121165": {
+        "risk": 29.4,
+        "att": 92.9,
+        "asgn": 89.5,
+        "mc": 22.0,
+        "proj_best": 8.0,
+        "ta": 14,
+        "inactive": 1
+      },
+      "3141278": {
+        "risk": 29.1,
+        "att": 100.0,
+        "asgn": 94.7,
+        "mc": 23.0,
+        "proj_best": 8.0,
+        "ta": 2,
+        "inactive": 2
+      },
+      "2825370": {
+        "risk": 29.0,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 20.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3070585": {
+        "risk": 28.8,
+        "att": 100.0,
+        "asgn": 92.6,
+        "mc": 19.0,
+        "proj_best": 9.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3065891": {
+        "risk": 28.5,
+        "att": 100.0,
+        "asgn": 81.1,
+        "mc": 21.0,
+        "proj_best": 8.0,
+        "ta": 32,
+        "inactive": 1
+      },
+      "3111198": {
+        "risk": 28.3,
+        "att": 100.0,
+        "asgn": 98.9,
+        "mc": 20.0,
+        "proj_best": 6.0,
+        "ta": 49,
+        "inactive": 4
+      },
+      "2090813": {
+        "risk": 27.7,
+        "att": 100.0,
+        "asgn": 89.3,
+        "mc": 26.0,
+        "proj_best": 9.0,
+        "ta": 2,
+        "inactive": 4
+      },
+      "2983831": {
+        "risk": 27.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 26.0,
+        "proj_best": 7.0,
+        "ta": 8,
+        "inactive": 1
+      },
+      "2802864": {
+        "risk": 25.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 9.0,
+        "ta": 4,
+        "inactive": 4
+      },
+      "3074763": {
+        "risk": 24.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 17.0,
+        "proj_best": 10.0,
+        "ta": 4,
+        "inactive": 4
+      },
+      "1467861": {
+        "risk": 23.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 24.0,
+        "proj_best": 8.0,
+        "ta": 17,
+        "inactive": 2
+      }
+    }
+  },
+  {
+    "date": "2026-05-12",
+    "students": {
+      "2344472": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "527706": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3085939": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "1639853": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3112964": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2307780": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2273472": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2995996": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "554546": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2822009": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2808561": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3076190": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2807416": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3143342": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2491816": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "1230943": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3433337": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3359948": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3303604": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3323412": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3358352": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3334507": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3332938": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3411996": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3341771": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3298988": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "5761": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3280258": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3422304": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3136528": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3277998": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "1055059": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3341939": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3429489": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2761481": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3191929": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3268446": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "1547521": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "139779": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "564573": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3126803": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3165544": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2723448": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3189205": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2344156": {
+        "risk": 100.0,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3124259": {
+        "risk": 99.8,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 999
+      },
+      "3192346": {
+        "risk": 99.5,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 999
+      },
+      "2829315": {
+        "risk": 99.2,
+        "att": 3.4,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "121059": {
+        "risk": 98.3,
+        "att": 6.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3291638": {
+        "risk": 98.3,
+        "att": 6.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2174464": {
+        "risk": 97.4,
+        "att": 10.3,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3178132": {
+        "risk": 96.7,
+        "att": 13.3,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3274338": {
+        "risk": 95.8,
+        "att": 16.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3180891": {
+        "risk": 95.1,
+        "att": 16.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 999
+      },
+      "3013809": {
+        "risk": 94.8,
+        "att": 18.8,
+        "asgn": 0.0,
+        "mc": 2.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "774303": {
+        "risk": 94.6,
+        "att": 16.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 5,
+        "inactive": 999
+      },
+      "2827070": {
+        "risk": 94.2,
+        "att": 0.0,
+        "asgn": 0.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2821132": {
+        "risk": 94.0,
+        "att": 6.9,
+        "asgn": 0.0,
+        "mc": 17.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2929120": {
+        "risk": 93.8,
+        "att": 16.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3025973": {
+        "risk": 91.7,
+        "att": 33.3,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2661483": {
+        "risk": 91.2,
+        "att": 33.3,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 999
+      },
+      "3091295": {
+        "risk": 89.6,
+        "att": 6.3,
+        "asgn": 33.3,
+        "mc": 2.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 8
+      },
+      "3005907": {
+        "risk": 89.3,
+        "att": 20.7,
+        "asgn": 0.0,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3135887": {
+        "risk": 87.9,
+        "att": 31.3,
+        "asgn": 0.0,
+        "mc": 12.0,
+        "proj_best": 0.0,
+        "ta": 5,
+        "inactive": 999
+      },
+      "3419438": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3352757": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3357944": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3364851": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3438318": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2831321": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3365188": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3373083": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3432955": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "882329": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3364649": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3304569": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3277923": {
+        "risk": 87.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3296406": {
+        "risk": 87.1,
+        "att": 26.7,
+        "asgn": 25.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 9
+      },
+      "3130440": {
+        "risk": 84.1,
+        "att": 37.5,
+        "asgn": 0.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 999
+      },
+      "3192252": {
+        "risk": 83.3,
+        "att": 66.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "131317": {
+        "risk": 83.1,
+        "att": 66.7,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 999
+      },
+      "3256372": {
+        "risk": 82.0,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 6.0,
+        "proj_best": 2.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3075147": {
+        "risk": 81.8,
+        "att": 31.3,
+        "asgn": 16.7,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 40
+      },
+      "1659036": {
+        "risk": 81.5,
+        "att": 50.0,
+        "asgn": 0.0,
+        "mc": 4.0,
+        "proj_best": 0.0,
+        "ta": 33,
+        "inactive": 999
+      },
+      "836956": {
+        "risk": 80.0,
+        "att": 17.2,
+        "asgn": 0.0,
+        "mc": 63.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3283153": {
+        "risk": 79.2,
+        "att": 83.3,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3229412": {
+        "risk": 79.2,
+        "att": 83.3,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3182597": {
+        "risk": 76.9,
+        "att": 83.3,
+        "asgn": 0.0,
+        "mc": 8.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 999
+      },
+      "2825673": {
+        "risk": 75.9,
+        "att": 83.3,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 13,
+        "inactive": 999
+      },
+      "876315": {
+        "risk": 75.7,
+        "att": 31.3,
+        "asgn": 42.9,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 48
+      },
+      "3314487": {
+        "risk": 75.4,
+        "att": 40.0,
+        "asgn": 58.5,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 9
+      },
+      "3287686": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3425223": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3168328": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2026188": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3417558": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3313810": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3325723": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3423256": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3305651": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3445263": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3337791": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2004123": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3425261": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3345540": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3346500": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3318507": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3356387": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3398463": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3448737": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "2797716": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3250163": {
+        "risk": 75.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3229416": {
+        "risk": 74.5,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 2.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3106302": {
+        "risk": 74.4,
+        "att": 43.8,
+        "asgn": 35.7,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 41
+      },
+      "38544": {
+        "risk": 73.2,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 6.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 999
+      },
+      "3250955": {
+        "risk": 73.0,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 7.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 999
+      },
+      "2897709": {
+        "risk": 72.9,
+        "att": 83.3,
+        "asgn": 0.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 999
+      },
+      "3224386": {
+        "risk": 72.9,
+        "att": 83.3,
+        "asgn": 0.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 999
+      },
+      "3068820": {
+        "risk": 72.6,
+        "att": 25.0,
+        "asgn": 82.7,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 5
+      },
+      "3262926": {
+        "risk": 71.8,
+        "att": 66.7,
+        "asgn": 39.1,
+        "mc": 7.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3271996": {
+        "risk": 70.8,
+        "att": 20.0,
+        "asgn": 91.7,
+        "mc": 5.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 19
+      },
+      "3067674": {
+        "risk": 70.3,
+        "att": 83.3,
+        "asgn": 33.3,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 3
+      },
+      "3176144": {
+        "risk": 70.2,
+        "att": 83.3,
+        "asgn": 0.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 13,
+        "inactive": 999
+      },
+      "3278243": {
+        "risk": 69.5,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3145260": {
+        "risk": 69.5,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "3235967": {
+        "risk": 69.2,
+        "att": 100.0,
+        "asgn": 0.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 999
+      },
+      "1362093": {
+        "risk": 69.1,
+        "att": 20.7,
+        "asgn": 50.0,
+        "mc": 13.0,
+        "proj_best": 5.0,
+        "ta": 0,
+        "inactive": 77
+      },
+      "931679": {
+        "risk": 68.8,
+        "att": 100.0,
+        "asgn": 25.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3342999": {
+        "risk": 68.8,
+        "att": 100.0,
+        "asgn": 25.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "1239169": {
+        "risk": 68.8,
+        "att": 100.0,
+        "asgn": 25.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "599423": {
+        "risk": 68.0,
+        "att": 27.6,
+        "asgn": 86.4,
+        "mc": 6.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 52
+      },
+      "3175021": {
+        "risk": 67.8,
+        "att": 100.0,
+        "asgn": 25.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 4,
+        "inactive": 1
+      },
+      "2057054": {
+        "risk": 67.6,
+        "att": 31.3,
+        "asgn": 47.4,
+        "mc": 37.0,
+        "proj_best": 1.0,
+        "ta": 6,
+        "inactive": 16
+      },
+      "3332693": {
+        "risk": 66.6,
+        "att": 33.3,
+        "asgn": 78.3,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3030252": {
+        "risk": 66.2,
+        "att": 48.3,
+        "asgn": 52.0,
+        "mc": 0.0,
+        "proj_best": 4.0,
+        "ta": 3,
+        "inactive": 27
+      },
+      "2480578": {
+        "risk": 66.2,
+        "att": 33.3,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 0
+      },
+      "3180295": {
+        "risk": 66.1,
+        "att": 100.0,
+        "asgn": 12.5,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 8
+      },
+      "1496842": {
+        "risk": 65.9,
+        "att": 93.3,
+        "asgn": 43.2,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 13
+      },
+      "3269040": {
+        "risk": 64.7,
+        "att": 50.0,
+        "asgn": 91.2,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2495595": {
+        "risk": 63.7,
+        "att": 31.3,
+        "asgn": 91.8,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 26
+      },
+      "2828190": {
+        "risk": 63.4,
+        "att": 50.0,
+        "asgn": 77.3,
+        "mc": 19.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2120159": {
+        "risk": 62.8,
+        "att": 93.3,
+        "asgn": 51.5,
+        "mc": 4.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "2278618": {
+        "risk": 62.5,
+        "att": 50.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3332600": {
+        "risk": 62.5,
+        "att": 100.0,
+        "asgn": 50.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3377978": {
+        "risk": 62.5,
+        "att": 50.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3311736": {
+        "risk": 62.5,
+        "att": 50.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2962233": {
+        "risk": 62.2,
+        "att": 50.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 4
+      },
+      "3370640": {
+        "risk": 62.2,
+        "att": 100.0,
+        "asgn": 50.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "3288442": {
+        "risk": 61.3,
+        "att": 60.0,
+        "asgn": 66.7,
+        "mc": 28.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3122448": {
+        "risk": 60.6,
+        "att": 81.3,
+        "asgn": 24.2,
+        "mc": 32.0,
+        "proj_best": 0.0,
+        "ta": 21,
+        "inactive": 5
+      },
+      "3239607": {
+        "risk": 60.6,
+        "att": 83.3,
+        "asgn": 35.3,
+        "mc": 22.0,
+        "proj_best": 2.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3310488": {
+        "risk": 60.5,
+        "att": 53.3,
+        "asgn": 50.9,
+        "mc": 54.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 14
+      },
+      "1130781": {
+        "risk": 60.3,
+        "att": 43.8,
+        "asgn": 40.0,
+        "mc": 67.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 48
+      },
+      "3086414": {
+        "risk": 60.2,
+        "att": 68.8,
+        "asgn": 90.5,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 8
+      },
+      "1993982": {
+        "risk": 60.1,
+        "att": 100.0,
+        "asgn": 55.6,
+        "mc": 4.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2775879": {
+        "risk": 59.8,
+        "att": 50.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 11,
+        "inactive": 2
+      },
+      "1676733": {
+        "risk": 59.6,
+        "att": 100.0,
+        "asgn": 37.5,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 6
+      },
+      "486845": {
+        "risk": 59.1,
+        "att": 48.3,
+        "asgn": 91.3,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 3
+      },
+      "3006398": {
+        "risk": 59.0,
+        "att": 37.9,
+        "asgn": 100.0,
+        "mc": 25.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 25
+      },
+      "3262983": {
+        "risk": 58.7,
+        "att": 100.0,
+        "asgn": 65.1,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3266584": {
+        "risk": 57.7,
+        "att": 83.3,
+        "asgn": 80.0,
+        "mc": 6.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "762091": {
+        "risk": 57.6,
+        "att": 86.7,
+        "asgn": 50.0,
+        "mc": 33.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3091720": {
+        "risk": 57.5,
+        "att": 86.7,
+        "asgn": 83.1,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "2710914": {
+        "risk": 57.1,
+        "att": 100.0,
+        "asgn": 71.4,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3306246": {
+        "risk": 57.0,
+        "att": 86.7,
+        "asgn": 80.5,
+        "mc": 5.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 21
+      },
+      "3194886": {
+        "risk": 56.8,
+        "att": 100.0,
+        "asgn": 50.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 8
+      },
+      "2470003": {
+        "risk": 56.6,
+        "att": 13.8,
+        "asgn": 83.7,
+        "mc": 67.0,
+        "proj_best": 1.0,
+        "ta": 1,
+        "inactive": 56
+      },
+      "3052427": {
+        "risk": 56.5,
+        "att": 37.5,
+        "asgn": 52.6,
+        "mc": 28.0,
+        "proj_best": 6.0,
+        "ta": 8,
+        "inactive": 41
+      },
+      "3256734": {
+        "risk": 56.4,
+        "att": 100.0,
+        "asgn": 53.3,
+        "mc": 8.0,
+        "proj_best": 0.0,
+        "ta": 13,
+        "inactive": 1
+      },
+      "3330479": {
+        "risk": 56.2,
+        "att": 100.0,
+        "asgn": 75.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "1997710": {
+        "risk": 56.0,
+        "att": 93.3,
+        "asgn": 52.9,
+        "mc": 30.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 10
+      },
+      "3176447": {
+        "risk": 55.9,
+        "att": 100.0,
+        "asgn": 74.6,
+        "mc": 2.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3268054": {
+        "risk": 55.6,
+        "att": 83.3,
+        "asgn": 83.3,
+        "mc": 10.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3093800": {
+        "risk": 55.5,
+        "att": 37.5,
+        "asgn": 81.4,
+        "mc": 57.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 3
+      },
+      "1097331": {
+        "risk": 55.2,
+        "att": 17.2,
+        "asgn": 90.1,
+        "mc": 64.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 48
+      },
+      "3075710": {
+        "risk": 55.2,
+        "att": 60.0,
+        "asgn": 88.2,
+        "mc": 31.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 11
+      },
+      "3238015": {
+        "risk": 55.2,
+        "att": 100.0,
+        "asgn": 57.1,
+        "mc": 20.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 0
+      },
+      "3183497": {
+        "risk": 54.5,
+        "att": 100.0,
+        "asgn": 66.0,
+        "mc": 16.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3286057": {
+        "risk": 54.4,
+        "att": 80.0,
+        "asgn": 84.6,
+        "mc": 18.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 12
+      },
+      "3326177": {
+        "risk": 54.4,
+        "att": 60.0,
+        "asgn": 80.3,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2659952": {
+        "risk": 54.0,
+        "att": 6.3,
+        "asgn": 42.9,
+        "mc": 79.0,
+        "proj_best": 7.0,
+        "ta": 0,
+        "inactive": 41
+      },
+      "3076936": {
+        "risk": 53.3,
+        "att": 100.0,
+        "asgn": 53.7,
+        "mc": 13.0,
+        "proj_best": 0.0,
+        "ta": 20,
+        "inactive": 1
+      },
+      "3268817": {
+        "risk": 52.9,
+        "att": 100.0,
+        "asgn": 65.4,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "2766698": {
+        "risk": 52.9,
+        "att": 100.0,
+        "asgn": 85.3,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 1
+      },
+      "3169021": {
+        "risk": 52.8,
+        "att": 100.0,
+        "asgn": 66.7,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3184249": {
+        "risk": 52.4,
+        "att": 100.0,
+        "asgn": 62.5,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 5,
+        "inactive": 0
+      },
+      "3189402": {
+        "risk": 52.4,
+        "att": 100.0,
+        "asgn": 67.3,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3028836": {
+        "risk": 52.1,
+        "att": 100.0,
+        "asgn": 68.5,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "1411888": {
+        "risk": 51.6,
+        "att": 66.7,
+        "asgn": 100.0,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "1378316": {
+        "risk": 51.5,
+        "att": 75.9,
+        "asgn": 84.1,
+        "mc": 34.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3306763": {
+        "risk": 51.5,
+        "att": 66.7,
+        "asgn": 82.3,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "685113": {
+        "risk": 51.5,
+        "att": 100.0,
+        "asgn": 72.2,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2529842": {
+        "risk": 51.2,
+        "att": 100.0,
+        "asgn": 72.2,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2124548": {
+        "risk": 50.9,
+        "att": 58.6,
+        "asgn": 50.0,
+        "mc": 30.0,
+        "proj_best": 7.0,
+        "ta": 2,
+        "inactive": 48
+      },
+      "1310850": {
+        "risk": 50.9,
+        "att": 80.0,
+        "asgn": 67.4,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 11
+      },
+      "1029767": {
+        "risk": 50.8,
+        "att": 100.0,
+        "asgn": 75.9,
+        "mc": 21.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3319680": {
+        "risk": 50.6,
+        "att": 86.7,
+        "asgn": 89.9,
+        "mc": 20.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 13
+      },
+      "2005219": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3357979": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3353275": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3426473": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3418640": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3419269": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "772146": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3359392": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3405994": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3339284": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3429249": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3361565": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3361949": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3412261": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3274366": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "545151": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3327144": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "706498": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3300032": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2824028": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3423045": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3337019": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "1225246": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3323348": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3335330": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3277539": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3286440": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3340112": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3419280": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3395439": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "1676860": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3433728": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3374819": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3412196": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3429467": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "1879237": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3366985": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3301719": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "2789644": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "999557": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3422236": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3335843": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3419289": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2522628": {
+        "risk": 50.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3306152": {
+        "risk": 49.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "3376548": {
+        "risk": 49.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "3249625": {
+        "risk": 49.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "968266": {
+        "risk": 49.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 3
+      },
+      "1292205": {
+        "risk": 49.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 0.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 6
+      },
+      "3278957": {
+        "risk": 49.7,
+        "att": 53.3,
+        "asgn": 100.0,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 9
+      },
+      "3269120": {
+        "risk": 49.6,
+        "att": 100.0,
+        "asgn": 79.6,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3240328": {
+        "risk": 49.5,
+        "att": 100.0,
+        "asgn": 75.9,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3179832": {
+        "risk": 49.4,
+        "att": 100.0,
+        "asgn": 70.4,
+        "mc": 20.0,
+        "proj_best": 1.0,
+        "ta": 4,
+        "inactive": 1
+      },
+      "2233952": {
+        "risk": 49.3,
+        "att": 50.0,
+        "asgn": 65.8,
+        "mc": 86.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 21
+      },
+      "3294066": {
+        "risk": 49.3,
+        "att": 80.0,
+        "asgn": 96.8,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3296338": {
+        "risk": 49.2,
+        "att": 86.7,
+        "asgn": 76.5,
+        "mc": 40.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3282444": {
+        "risk": 49.2,
+        "att": 93.3,
+        "asgn": 70.7,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 11
+      },
+      "3274028": {
+        "risk": 49.0,
+        "att": 100.0,
+        "asgn": 80.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "3240020": {
+        "risk": 48.6,
+        "att": 100.0,
+        "asgn": 79.6,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3249527": {
+        "risk": 48.4,
+        "att": 100.0,
+        "asgn": 75.6,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 5,
+        "inactive": 7
+      },
+      "3280390": {
+        "risk": 48.0,
+        "att": 93.3,
+        "asgn": 78.6,
+        "mc": 36.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "1043130": {
+        "risk": 47.8,
+        "att": 100.0,
+        "asgn": 87.0,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3302711": {
+        "risk": 47.5,
+        "att": 93.3,
+        "asgn": 84.5,
+        "mc": 32.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 9
+      },
+      "2632698": {
+        "risk": 47.4,
+        "att": 50.0,
+        "asgn": 93.5,
+        "mc": 23.0,
+        "proj_best": 3.0,
+        "ta": 23,
+        "inactive": 7
+      },
+      "3043082": {
+        "risk": 47.3,
+        "att": 51.7,
+        "asgn": 96.1,
+        "mc": 51.0,
+        "proj_best": 1.0,
+        "ta": 4,
+        "inactive": 31
+      },
+      "1477311": {
+        "risk": 47.1,
+        "att": 66.7,
+        "asgn": 96.7,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 6
+      },
+      "3004572": {
+        "risk": 47.0,
+        "att": 50.0,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 5.0,
+        "ta": 0,
+        "inactive": 29
+      },
+      "3298792": {
+        "risk": 47.0,
+        "att": 60.0,
+        "asgn": 100.0,
+        "mc": 52.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3096008": {
+        "risk": 46.8,
+        "att": 100.0,
+        "asgn": 88.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 3
+      },
+      "2521764": {
+        "risk": 46.7,
+        "att": 20.7,
+        "asgn": 98.6,
+        "mc": 85.0,
+        "proj_best": 1.0,
+        "ta": 1,
+        "inactive": 7
+      },
+      "1089542": {
+        "risk": 46.7,
+        "att": 73.3,
+        "asgn": 97.8,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 8
+      },
+      "2073885": {
+        "risk": 46.7,
+        "att": 100.0,
+        "asgn": 73.3,
+        "mc": 8.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3288637": {
+        "risk": 46.6,
+        "att": 93.3,
+        "asgn": 82.4,
+        "mc": 38.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3280004": {
+        "risk": 46.5,
+        "att": 100.0,
+        "asgn": 88.1,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2769395": {
+        "risk": 46.2,
+        "att": 86.2,
+        "asgn": 100.0,
+        "mc": 29.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3275812": {
+        "risk": 46.2,
+        "att": 80.0,
+        "asgn": 93.3,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3319907": {
+        "risk": 45.7,
+        "att": 93.3,
+        "asgn": 94.8,
+        "mc": 29.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3278382": {
+        "risk": 45.4,
+        "att": 100.0,
+        "asgn": 77.6,
+        "mc": 41.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3142765": {
+        "risk": 45.3,
+        "att": 86.7,
+        "asgn": 92.1,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 6
+      },
+      "3193748": {
+        "risk": 45.2,
+        "att": 83.3,
+        "asgn": 100.0,
+        "mc": 26.0,
+        "proj_best": 1.0,
+        "ta": 2,
+        "inactive": 6
+      },
+      "291440": {
+        "risk": 45.1,
+        "att": 62.5,
+        "asgn": 100.0,
+        "mc": 26.0,
+        "proj_best": 3.0,
+        "ta": 7,
+        "inactive": 8
+      },
+      "3309538": {
+        "risk": 45.1,
+        "att": 86.7,
+        "asgn": 84.9,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3063529": {
+        "risk": 45.1,
+        "att": 100.0,
+        "asgn": 93.5,
+        "mc": 6.0,
+        "proj_best": 0.0,
+        "ta": 52,
+        "inactive": 0
+      },
+      "3321554": {
+        "risk": 45.0,
+        "att": 100.0,
+        "asgn": 96.1,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 1
+      },
+      "3015239": {
+        "risk": 44.7,
+        "att": 93.8,
+        "asgn": 83.6,
+        "mc": 44.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "1360840": {
+        "risk": 44.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2624758": {
+        "risk": 44.4,
+        "att": 100.0,
+        "asgn": 93.3,
+        "mc": 20.0,
+        "proj_best": 1.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3264456": {
+        "risk": 44.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2283926": {
+        "risk": 44.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3080128": {
+        "risk": 43.9,
+        "att": 56.3,
+        "asgn": 78.1,
+        "mc": 90.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "331468": {
+        "risk": 43.9,
+        "att": 100.0,
+        "asgn": 82.6,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 9
+      },
+      "1175353": {
+        "risk": 43.7,
+        "att": 93.3,
+        "asgn": 86.0,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "85159": {
+        "risk": 43.7,
+        "att": 100.0,
+        "asgn": 93.2,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 6,
+        "inactive": 0
+      },
+      "3257450": {
+        "risk": 43.5,
+        "att": 100.0,
+        "asgn": 98.1,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 5,
+        "inactive": 1
+      },
+      "3271627": {
+        "risk": 43.4,
+        "att": 100.0,
+        "asgn": 94.4,
+        "mc": 23.0,
+        "proj_best": 1.0,
+        "ta": 1,
+        "inactive": 3
+      },
+      "1995124": {
+        "risk": 43.3,
+        "att": 50.0,
+        "asgn": 93.7,
+        "mc": 51.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2931975": {
+        "risk": 43.1,
+        "att": 56.3,
+        "asgn": 84.3,
+        "mc": 63.0,
+        "proj_best": 3.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3135822": {
+        "risk": 43.0,
+        "att": 75.0,
+        "asgn": 80.8,
+        "mc": 23.0,
+        "proj_best": 6.0,
+        "ta": 1,
+        "inactive": 13
+      },
+      "3281272": {
+        "risk": 43.0,
+        "att": 100.0,
+        "asgn": 93.8,
+        "mc": 34.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3271998": {
+        "risk": 43.0,
+        "att": 100.0,
+        "asgn": 95.0,
+        "mc": 22.0,
+        "proj_best": 1.0,
+        "ta": 3,
+        "inactive": 3
+      },
+      "3173491": {
+        "risk": 43.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 26.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 4
+      },
+      "3280262": {
+        "risk": 42.9,
+        "att": 100.0,
+        "asgn": 94.6,
+        "mc": 31.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 6
+      },
+      "3306241": {
+        "risk": 42.8,
+        "att": 93.3,
+        "asgn": 87.4,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3293052": {
+        "risk": 42.7,
+        "att": 93.3,
+        "asgn": 87.0,
+        "mc": 49.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 13
+      },
+      "3169354": {
+        "risk": 42.5,
+        "att": 100.0,
+        "asgn": 93.2,
+        "mc": 37.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "1278026": {
+        "risk": 42.5,
+        "att": 100.0,
+        "asgn": 95.9,
+        "mc": 33.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "3325175": {
+        "risk": 42.4,
+        "att": 93.3,
+        "asgn": 95.0,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3314410": {
+        "risk": 42.2,
+        "att": 100.0,
+        "asgn": 98.1,
+        "mc": 33.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "1432173": {
+        "risk": 42.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 0.0,
+        "ta": 8,
+        "inactive": 0
+      },
+      "3311014": {
+        "risk": 42.1,
+        "att": 86.7,
+        "asgn": 100.0,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2462737": {
+        "risk": 41.9,
+        "att": 62.1,
+        "asgn": 84.3,
+        "mc": 78.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 15
+      },
+      "620478": {
+        "risk": 41.8,
+        "att": 100.0,
+        "asgn": 94.9,
+        "mc": 36.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 3
+      },
+      "3319991": {
+        "risk": 41.8,
+        "att": 93.3,
+        "asgn": 96.6,
+        "mc": 43.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 6
+      },
+      "3254806": {
+        "risk": 41.3,
+        "att": 100.0,
+        "asgn": 96.9,
+        "mc": 37.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 4
+      },
+      "3287972": {
+        "risk": 41.2,
+        "att": 100.0,
+        "asgn": 93.2,
+        "mc": 34.0,
+        "proj_best": 0.0,
+        "ta": 8,
+        "inactive": 1
+      },
+      "1855193": {
+        "risk": 41.1,
+        "att": 100.0,
+        "asgn": 91.6,
+        "mc": 43.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3301661": {
+        "risk": 41.0,
+        "att": 100.0,
+        "asgn": 99.0,
+        "mc": 37.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3291265": {
+        "risk": 40.7,
+        "att": 100.0,
+        "asgn": 88.3,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 10,
+        "inactive": 4
+      },
+      "348422": {
+        "risk": 40.7,
+        "att": 100.0,
+        "asgn": 98.1,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2635992": {
+        "risk": 40.5,
+        "att": 100.0,
+        "asgn": 95.8,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3293898": {
+        "risk": 40.5,
+        "att": 100.0,
+        "asgn": 93.2,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3050215": {
+        "risk": 40.3,
+        "att": 100.0,
+        "asgn": 89.9,
+        "mc": 49.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3311412": {
+        "risk": 40.3,
+        "att": 86.7,
+        "asgn": 100.0,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 2
+      },
+      "3315694": {
+        "risk": 40.3,
+        "att": 93.3,
+        "asgn": 97.6,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2904872": {
+        "risk": 40.0,
+        "att": 25.0,
+        "asgn": 69.0,
+        "mc": 90.0,
+        "proj_best": 6.0,
+        "ta": 8,
+        "inactive": 2
+      },
+      "1102389": {
+        "risk": 40.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 39.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 10
+      },
+      "2768559": {
+        "risk": 40.0,
+        "att": 100.0,
+        "asgn": 97.1,
+        "mc": 43.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3308228": {
+        "risk": 39.9,
+        "att": 100.0,
+        "asgn": 91.3,
+        "mc": 49.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3314413": {
+        "risk": 39.5,
+        "att": 100.0,
+        "asgn": 94.2,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 3,
+        "inactive": 1
+      },
+      "3192215": {
+        "risk": 39.5,
+        "att": 100.0,
+        "asgn": 97.1,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3307508": {
+        "risk": 39.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "1546423": {
+        "risk": 39.2,
+        "att": 100.0,
+        "asgn": 95.1,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3124991": {
+        "risk": 39.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 22.0,
+        "proj_best": 1.0,
+        "ta": 14,
+        "inactive": 0
+      },
+      "3312602": {
+        "risk": 39.0,
+        "att": 100.0,
+        "asgn": 94.2,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 1
+      },
+      "3083903": {
+        "risk": 38.8,
+        "att": 100.0,
+        "asgn": 99.0,
+        "mc": 42.0,
+        "proj_best": 0.0,
+        "ta": 4,
+        "inactive": 2
+      },
+      "3287699": {
+        "risk": 38.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "2989544": {
+        "risk": 38.7,
+        "att": 100.0,
+        "asgn": 75.3,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 19,
+        "inactive": 5
+      },
+      "3319578": {
+        "risk": 38.7,
+        "att": 100.0,
+        "asgn": 94.2,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "1997479": {
+        "risk": 38.6,
+        "att": 62.5,
+        "asgn": 98.9,
+        "mc": 84.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 8
+      },
+      "3019706": {
+        "risk": 38.6,
+        "att": 89.7,
+        "asgn": 84.8,
+        "mc": 71.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2245041": {
+        "risk": 38.4,
+        "att": 79.3,
+        "asgn": 74.0,
+        "mc": 85.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 30
+      },
+      "3308250": {
+        "risk": 38.3,
+        "att": 100.0,
+        "asgn": 95.9,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3280415": {
+        "risk": 38.2,
+        "att": 100.0,
+        "asgn": 98.0,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 2
+      },
+      "2119765": {
+        "risk": 38.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "1310966": {
+        "risk": 38.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 48.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3294595": {
+        "risk": 38.0,
+        "att": 100.0,
+        "asgn": 97.1,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2994864": {
+        "risk": 37.9,
+        "att": 100.0,
+        "asgn": 95.5,
+        "mc": 42.0,
+        "proj_best": 1.0,
+        "ta": 3,
+        "inactive": 5
+      },
+      "3024901": {
+        "risk": 37.9,
+        "att": 69.0,
+        "asgn": 87.6,
+        "mc": 90.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 6
+      },
+      "113107": {
+        "risk": 37.8,
+        "att": 100.0,
+        "asgn": 99.0,
+        "mc": 45.0,
+        "proj_best": 0.0,
+        "ta": 5,
+        "inactive": 0
+      },
+      "3307932": {
+        "risk": 37.8,
+        "att": 100.0,
+        "asgn": 97.9,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "2093834": {
+        "risk": 37.7,
+        "att": 93.3,
+        "asgn": 100.0,
+        "mc": 54.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 4
+      },
+      "2991446": {
+        "risk": 37.7,
+        "att": 100.0,
+        "asgn": 98.1,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "3324141": {
+        "risk": 37.7,
+        "att": 100.0,
+        "asgn": 98.1,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2561648": {
+        "risk": 37.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 26.0,
+        "proj_best": 3.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "1076534": {
+        "risk": 37.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 51.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 7
+      },
+      "3284692": {
+        "risk": 37.2,
+        "att": 100.0,
+        "asgn": 99.0,
+        "mc": 52.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3095161": {
+        "risk": 37.0,
+        "att": 87.5,
+        "asgn": 87.3,
+        "mc": 43.0,
+        "proj_best": 4.0,
+        "ta": 2,
+        "inactive": 6
+      },
+      "3294731": {
+        "risk": 37.0,
+        "att": 100.0,
+        "asgn": 98.0,
+        "mc": 54.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3309786": {
+        "risk": 36.7,
+        "att": 100.0,
+        "asgn": 95.1,
+        "mc": 54.0,
+        "proj_best": 0.0,
+        "ta": 4,
+        "inactive": 0
+      },
+      "3134479": {
+        "risk": 36.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 39.0,
+        "proj_best": 2.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3277493": {
+        "risk": 36.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 3.0,
+        "ta": 8,
+        "inactive": 3
+      },
+      "7518": {
+        "risk": 36.1,
+        "att": 93.1,
+        "asgn": 81.7,
+        "mc": 72.6,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "2953216": {
+        "risk": 35.8,
+        "att": 75.0,
+        "asgn": 92.7,
+        "mc": 32.0,
+        "proj_best": 7.0,
+        "ta": 1,
+        "inactive": 4
+      },
+      "3068589": {
+        "risk": 35.8,
+        "att": 81.3,
+        "asgn": 94.7,
+        "mc": 44.0,
+        "proj_best": 4.0,
+        "ta": 5,
+        "inactive": 1
+      },
+      "3092576": {
+        "risk": 35.8,
+        "att": 100.0,
+        "asgn": 90.9,
+        "mc": 34.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3082406": {
+        "risk": 35.5,
+        "att": 93.8,
+        "asgn": 100.0,
+        "mc": 24.0,
+        "proj_best": 5.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "938032": {
+        "risk": 35.5,
+        "att": 62.1,
+        "asgn": 100.0,
+        "mc": 95.9,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 32
+      },
+      "3046268": {
+        "risk": 35.2,
+        "att": 100.0,
+        "asgn": 91.0,
+        "mc": 59.0,
+        "proj_best": 1.0,
+        "ta": 1,
+        "inactive": 3
+      },
+      "3013577": {
+        "risk": 35.2,
+        "att": 79.3,
+        "asgn": 91.7,
+        "mc": 88.0,
+        "proj_best": 0.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "176131": {
+        "risk": 35.0,
+        "att": 89.7,
+        "asgn": 91.8,
+        "mc": 77.7,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 22
+      },
+      "1662809": {
+        "risk": 34.9,
+        "att": 93.8,
+        "asgn": 87.5,
+        "mc": 47.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 0
+      },
+      "2990518": {
+        "risk": 34.9,
+        "att": 55.2,
+        "asgn": 78.3,
+        "mc": 74.0,
+        "proj_best": 6.0,
+        "ta": 5,
+        "inactive": 0
+      },
+      "3095730": {
+        "risk": 34.4,
+        "att": 100.0,
+        "asgn": 90.4,
+        "mc": 64.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "1994176": {
+        "risk": 34.4,
+        "att": 60.0,
+        "asgn": 94.1,
+        "mc": 88.4,
+        "proj_best": 0.0,
+        "ta": 20,
+        "inactive": 5
+      },
+      "233633": {
+        "risk": 33.8,
+        "att": 96.6,
+        "asgn": 92.3,
+        "mc": 75.0,
+        "proj_best": 0.0,
+        "ta": 1,
+        "inactive": 4
+      },
+      "1503595": {
+        "risk": 33.8,
+        "att": 82.8,
+        "asgn": 89.2,
+        "mc": 85.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2271202": {
+        "risk": 33.8,
+        "att": 100.0,
+        "asgn": 90.7,
+        "mc": 22.0,
+        "proj_best": 4.0,
+        "ta": 29,
+        "inactive": 3
+      },
+      "2832425": {
+        "risk": 33.7,
+        "att": 96.6,
+        "asgn": 85.7,
+        "mc": 81.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 10
+      },
+      "3168950": {
+        "risk": 33.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 23.0,
+        "proj_best": 5.0,
+        "ta": 3,
+        "inactive": 0
+      },
+      "3090736": {
+        "risk": 32.7,
+        "att": 100.0,
+        "asgn": 96.4,
+        "mc": 49.0,
+        "proj_best": 3.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2797270": {
+        "risk": 31.7,
+        "att": 93.1,
+        "asgn": 97.2,
+        "mc": 81.0,
+        "proj_best": 0.0,
+        "ta": 2,
+        "inactive": 6
+      },
+      "3078942": {
+        "risk": 31.5,
+        "att": 100.0,
+        "asgn": 91.8,
+        "mc": 55.0,
+        "proj_best": 3.0,
+        "ta": 3,
+        "inactive": 3
+      },
+      "1100602": {
+        "risk": 31.5,
+        "att": 89.7,
+        "asgn": 99.3,
+        "mc": 74.0,
+        "proj_best": 1.0,
+        "ta": 3,
+        "inactive": 2
+      },
+      "3092952": {
+        "risk": 31.3,
+        "att": 75.0,
+        "asgn": 75.8,
+        "mc": 56.0,
+        "proj_best": 8.0,
+        "ta": 4,
+        "inactive": 3
+      },
+      "413579": {
+        "risk": 31.1,
+        "att": 86.2,
+        "asgn": 93.8,
+        "mc": 83.5,
+        "proj_best": 1.0,
+        "ta": 4,
+        "inactive": 2
+      },
+      "219059": {
+        "risk": 30.9,
+        "att": 100.0,
+        "asgn": 94.4,
+        "mc": 23.0,
+        "proj_best": 5.0,
+        "ta": 19,
+        "inactive": 0
+      },
+      "3016851": {
+        "risk": 30.8,
+        "att": 65.5,
+        "asgn": 99.3,
+        "mc": 78.0,
+        "proj_best": 4.0,
+        "ta": 2,
+        "inactive": 1
+      },
+      "605351": {
+        "risk": 30.7,
+        "att": 96.6,
+        "asgn": 96.6,
+        "mc": 76.0,
+        "proj_best": 1.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3002845": {
+        "risk": 30.2,
+        "att": 96.6,
+        "asgn": 87.4,
+        "mc": 81.0,
+        "proj_best": 0.0,
+        "ta": 14,
+        "inactive": 3
+      },
+      "2997114": {
+        "risk": 30.1,
+        "att": 82.8,
+        "asgn": 86.7,
+        "mc": 62.0,
+        "proj_best": 6.0,
+        "ta": 0,
+        "inactive": 23
+      },
+      "3043414": {
+        "risk": 29.7,
+        "att": 93.1,
+        "asgn": 80.0,
+        "mc": 57.0,
+        "proj_best": 5.0,
+        "ta": 11,
+        "inactive": 2
+      },
+      "3042218": {
+        "risk": 29.7,
+        "att": 69.0,
+        "asgn": 97.3,
+        "mc": 51.0,
+        "proj_best": 8.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3084952": {
+        "risk": 29.5,
+        "att": 81.3,
+        "asgn": 98.9,
+        "mc": 47.0,
+        "proj_best": 5.0,
+        "ta": 15,
+        "inactive": 4
+      },
+      "340076": {
+        "risk": 29.5,
+        "att": 79.3,
+        "asgn": 81.8,
+        "mc": 88.0,
+        "proj_best": 4.0,
+        "ta": 1,
+        "inactive": 25
+      },
+      "764391": {
+        "risk": 29.3,
+        "att": 82.8,
+        "asgn": 90.2,
+        "mc": 66.8,
+        "proj_best": 5.0,
+        "ta": 3,
+        "inactive": 2
+      },
+      "3036583": {
+        "risk": 29.0,
+        "att": 31.0,
+        "asgn": 97.2,
+        "mc": 90.0,
+        "proj_best": 8.0,
+        "ta": 2,
+        "inactive": 4
+      },
+      "3070032": {
+        "risk": 28.9,
+        "att": 100.0,
+        "asgn": 84.3,
+        "mc": 52.0,
+        "proj_best": 6.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2838856": {
+        "risk": 28.8,
+        "att": 65.5,
+        "asgn": 94.1,
+        "mc": 69.0,
+        "proj_best": 7.0,
+        "ta": 0,
+        "inactive": 47
+      },
+      "3112894": {
+        "risk": 28.5,
+        "att": 93.8,
+        "asgn": 100.0,
+        "mc": 53.0,
+        "proj_best": 4.0,
+        "ta": 7,
+        "inactive": 1
+      },
+      "3094307": {
+        "risk": 28.5,
+        "att": 100.0,
+        "asgn": 87.9,
+        "mc": 50.0,
+        "proj_best": 6.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3045599": {
+        "risk": 28.4,
+        "att": 75.9,
+        "asgn": 78.0,
+        "mc": 83.5,
+        "proj_best": 6.0,
+        "ta": 1,
+        "inactive": 3
+      },
+      "1995289": {
+        "risk": 27.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 57.0,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3059238": {
+        "risk": 26.5,
+        "att": 93.8,
+        "asgn": 98.2,
+        "mc": 73.0,
+        "proj_best": 3.0,
+        "ta": 5,
+        "inactive": 2
+      },
+      "3126261": {
+        "risk": 26.3,
+        "att": 87.5,
+        "asgn": 93.1,
+        "mc": 57.0,
+        "proj_best": 7.0,
+        "ta": 1,
+        "inactive": 4
+      },
+      "2894974": {
+        "risk": 26.1,
+        "att": 96.6,
+        "asgn": 84.8,
+        "mc": 82.1,
+        "proj_best": 4.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "3054946": {
+        "risk": 25.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 46.0,
+        "proj_best": 4.0,
+        "ta": 20,
+        "inactive": 3
+      },
+      "1842753": {
+        "risk": 24.8,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 58.0,
+        "proj_best": 5.0,
+        "ta": 3,
+        "inactive": 3
+      },
+      "3008123": {
+        "risk": 24.8,
+        "att": 82.8,
+        "asgn": 84.8,
+        "mc": 77.0,
+        "proj_best": 5.0,
+        "ta": 16,
+        "inactive": 3
+      },
+      "3046493": {
+        "risk": 24.8,
+        "att": 72.4,
+        "asgn": 99.2,
+        "mc": 64.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "2702404": {
+        "risk": 24.7,
+        "att": 79.3,
+        "asgn": 85.8,
+        "mc": 66.0,
+        "proj_best": 8.0,
+        "ta": 6,
+        "inactive": 3
+      },
+      "2953729": {
+        "risk": 23.7,
+        "att": 65.5,
+        "asgn": 84.9,
+        "mc": 90.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 10
+      },
+      "3045414": {
+        "risk": 23.5,
+        "att": 100.0,
+        "asgn": 82.2,
+        "mc": 65.0,
+        "proj_best": 6.0,
+        "ta": 11,
+        "inactive": 2
+      },
+      "3089830": {
+        "risk": 23.2,
+        "att": 81.3,
+        "asgn": 100.0,
+        "mc": 81.0,
+        "proj_best": 5.0,
+        "ta": 5,
+        "inactive": 1
+      },
+      "3012008": {
+        "risk": 23.0,
+        "att": 89.7,
+        "asgn": 86.0,
+        "mc": 60.2,
+        "proj_best": 9.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "2980468": {
+        "risk": 22.5,
+        "att": 75.0,
+        "asgn": 95.0,
+        "mc": 90.0,
+        "proj_best": 6.0,
+        "ta": 2,
+        "inactive": 3
+      },
+      "3141278": {
+        "risk": 22.5,
+        "att": 100.0,
+        "asgn": 85.2,
+        "mc": 59.0,
+        "proj_best": 8.0,
+        "ta": 2,
+        "inactive": 3
+      },
+      "3006359": {
+        "risk": 22.2,
+        "att": 93.8,
+        "asgn": 96.3,
+        "mc": 64.0,
+        "proj_best": 6.0,
+        "ta": 9,
+        "inactive": 3
+      },
+      "3121995": {
+        "risk": 21.5,
+        "att": 93.8,
+        "asgn": 94.3,
+        "mc": 58.0,
+        "proj_best": 6.0,
+        "ta": 54,
+        "inactive": 3
+      },
+      "678577": {
+        "risk": 21.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 61.0,
+        "proj_best": 6.0,
+        "ta": 7,
+        "inactive": 1
+      },
+      "3074443": {
+        "risk": 20.8,
+        "att": 81.3,
+        "asgn": 94.5,
+        "mc": 73.0,
+        "proj_best": 6.0,
+        "ta": 46,
+        "inactive": 2
+      },
+      "3039712": {
+        "risk": 20.4,
+        "att": 86.2,
+        "asgn": 95.2,
+        "mc": 72.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 1
+      },
+      "3063503": {
+        "risk": 20.3,
+        "att": 100.0,
+        "asgn": 94.6,
+        "mc": 90.0,
+        "proj_best": 4.0,
+        "ta": 2,
+        "inactive": 5
+      },
+      "3111198": {
+        "risk": 20.2,
+        "att": 100.0,
+        "asgn": 97.3,
+        "mc": 54.0,
+        "proj_best": 6.0,
+        "ta": 50,
+        "inactive": 1
+      },
+      "2979217": {
+        "risk": 20.2,
+        "att": 96.6,
+        "asgn": 100.0,
+        "mc": 74.5,
+        "proj_best": 6.0,
+        "ta": 0,
+        "inactive": 1
+      },
+      "3059755": {
+        "risk": 20.1,
+        "att": 93.8,
+        "asgn": 97.9,
+        "mc": 71.0,
+        "proj_best": 6.0,
+        "ta": 9,
+        "inactive": 3
+      },
+      "3049151": {
+        "risk": 19.9,
+        "att": 93.8,
+        "asgn": 98.7,
+        "mc": 63.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 31
+      },
+      "3079862": {
+        "risk": 19.2,
+        "att": 93.8,
+        "asgn": 97.3,
+        "mc": 67.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 0
+      },
+      "3124787": {
+        "risk": 19.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 84.0,
+        "proj_best": 5.0,
+        "ta": 0,
+        "inactive": 3
+      },
+      "3039875": {
+        "risk": 18.7,
+        "att": 100.0,
+        "asgn": 89.1,
+        "mc": 62.0,
+        "proj_best": 8.0,
+        "ta": 10,
+        "inactive": 1
+      },
+      "2952376": {
+        "risk": 18.5,
+        "att": 93.8,
+        "asgn": 100.0,
+        "mc": 70.0,
+        "proj_best": 6.0,
+        "ta": 14,
+        "inactive": 3
+      },
+      "2273027": {
+        "risk": 18.1,
+        "att": 100.0,
+        "asgn": 95.8,
+        "mc": 61.6,
+        "proj_best": 8.0,
+        "ta": 6,
+        "inactive": 4
+      },
+      "2983831": {
+        "risk": 18.0,
+        "att": 93.8,
+        "asgn": 100.0,
+        "mc": 70.0,
+        "proj_best": 7.0,
+        "ta": 8,
+        "inactive": 2
+      },
+      "3049991": {
+        "risk": 18.0,
+        "att": 100.0,
+        "asgn": 88.2,
+        "mc": 75.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 2
+      },
+      "2090813": {
+        "risk": 17.8,
+        "att": 100.0,
+        "asgn": 91.8,
+        "mc": 63.0,
+        "proj_best": 9.0,
+        "ta": 2,
+        "inactive": 2
+      },
+      "3005227": {
+        "risk": 17.1,
+        "att": 96.6,
+        "asgn": 100.0,
+        "mc": 67.0,
+        "proj_best": 8.0,
+        "ta": 4,
+        "inactive": 4
+      },
+      "2825370": {
+        "risk": 17.0,
+        "att": 100.0,
+        "asgn": 99.1,
+        "mc": 68.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 3
+      },
+      "2178322": {
+        "risk": 17.0,
+        "att": 96.6,
+        "asgn": 97.2,
+        "mc": 73.0,
+        "proj_best": 8.0,
+        "ta": 1,
+        "inactive": 6
+      },
+      "3063390": {
+        "risk": 16.2,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 83.0,
+        "proj_best": 6.0,
+        "ta": 4,
+        "inactive": 5
+      },
+      "3024784": {
+        "risk": 15.8,
+        "att": 86.2,
+        "asgn": 98.6,
+        "mc": 88.0,
+        "proj_best": 8.0,
+        "ta": 0,
+        "inactive": 4
+      },
+      "3013303": {
+        "risk": 15.8,
+        "att": 96.6,
+        "asgn": 99.3,
+        "mc": 66.0,
+        "proj_best": 9.0,
+        "ta": 3,
+        "inactive": 4
+      },
+      "2802864": {
+        "risk": 15.5,
+        "att": 100.0,
+        "asgn": 99.1,
+        "mc": 63.0,
+        "proj_best": 9.0,
+        "ta": 4,
+        "inactive": 3
+      },
+      "3043575": {
+        "risk": 15.5,
+        "att": 96.6,
+        "asgn": 97.2,
+        "mc": 64.0,
+        "proj_best": 9.0,
+        "ta": 8,
+        "inactive": 8
+      },
+      "2235102": {
+        "risk": 15.3,
+        "att": 82.8,
+        "asgn": 94.2,
+        "mc": 92.7,
+        "proj_best": 8.0,
+        "ta": 5,
+        "inactive": 3
+      },
+      "3036237": {
+        "risk": 15.3,
+        "att": 96.6,
+        "asgn": 100.0,
+        "mc": 72.0,
+        "proj_best": 8.0,
+        "ta": 6,
+        "inactive": 4
+      },
+      "1467861": {
+        "risk": 14.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 58.0,
+        "proj_best": 8.0,
+        "ta": 20,
+        "inactive": 4
+      },
+      "3070585": {
+        "risk": 14.3,
+        "att": 100.0,
+        "asgn": 92.6,
+        "mc": 77.0,
+        "proj_best": 9.0,
+        "ta": 1,
+        "inactive": 7
+      },
+      "2914758": {
+        "risk": 14.3,
+        "att": 86.2,
+        "asgn": 97.6,
+        "mc": 82.0,
+        "proj_best": 8.0,
+        "ta": 13,
+        "inactive": 3
+      },
+      "2000633": {
+        "risk": 13.8,
+        "att": 96.6,
+        "asgn": 100.0,
+        "mc": 81.4,
+        "proj_best": 8.0,
+        "ta": 3,
+        "inactive": 4
+      },
+      "2928661": {
+        "risk": 13.2,
+        "att": 96.6,
+        "asgn": 98.6,
+        "mc": 77.0,
+        "proj_best": 9.0,
+        "ta": 3,
+        "inactive": 3
+      },
+      "1496654": {
+        "risk": 13.2,
+        "att": 96.6,
+        "asgn": 80.7,
+        "mc": 86.0,
+        "proj_best": 8.0,
+        "ta": 35,
+        "inactive": 3
+      },
+      "2993645": {
+        "risk": 13.1,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 77.6,
+        "proj_best": 8.0,
+        "ta": 6,
+        "inactive": 3
+      },
+      "3074763": {
+        "risk": 13.0,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 64.0,
+        "proj_best": 10.0,
+        "ta": 4,
+        "inactive": 1
+      },
+      "3010073": {
+        "risk": 12.8,
+        "att": 96.6,
+        "asgn": 92.1,
+        "mc": 86.2,
+        "proj_best": 9.0,
+        "ta": 2,
+        "inactive": 6
+      },
+      "3017488": {
+        "risk": 12.3,
+        "att": 96.6,
+        "asgn": 97.2,
+        "mc": 96.8,
+        "proj_best": 7.0,
+        "ta": 4,
+        "inactive": 1
+      },
+      "3012150": {
+        "risk": 12.3,
+        "att": 96.6,
+        "asgn": 100.0,
+        "mc": 82.0,
+        "proj_best": 9.0,
+        "ta": 0,
+        "inactive": 2
+      },
+      "1929356": {
+        "risk": 11.8,
+        "att": 93.1,
+        "asgn": 97.2,
+        "mc": 95.5,
+        "proj_best": 8.0,
+        "ta": 3,
+        "inactive": 3
+      },
+      "2965026": {
+        "risk": 11.7,
+        "att": 93.1,
+        "asgn": 99.3,
+        "mc": 86.0,
+        "proj_best": 8.0,
+        "ta": 11,
+        "inactive": 4
+      },
+      "2997048": {
+        "risk": 10.5,
+        "att": 100.0,
+        "asgn": 100.0,
+        "mc": 81.0,
+        "proj_best": 9.0,
+        "ta": 5,
+        "inactive": 1
+      },
+      "613012": {
+        "risk": 10.4,
+        "att": 96.6,
+        "asgn": 97.9,
+        "mc": 80.0,
+        "proj_best": 9.0,
+        "ta": 12,
+        "inactive": 0
+      },
+      "3065891": {
+        "risk": 10.0,
+        "att": 100.0,
+        "asgn": 91.8,
+        "mc": 84.0,
+        "proj_best": 8.0,
+        "ta": 34,
+        "inactive": 2
+      },
+      "3065903": {
+        "risk": 9.9,
+        "att": 100.0,
+        "asgn": 97.3,
+        "mc": 65.0,
+        "proj_best": 10.0,
+        "ta": 18,
+        "inactive": 0
+      },
+      "2788172": {
+        "risk": 9.6,
+        "att": 96.6,
+        "asgn": 100.0,
+        "mc": 88.0,
+        "proj_best": 8.0,
+        "ta": 13,
+        "inactive": 4
+      },
+      "3046794": {
+        "risk": 8.8,
+        "att": 96.6,
+        "asgn": 97.2,
+        "mc": 95.0,
+        "proj_best": 8.0,
+        "ta": 12,
+        "inactive": 4
+      },
+      "3121165": {
+        "risk": 8.5,
+        "att": 93.8,
+        "asgn": 97.3,
+        "mc": 88.0,
+        "proj_best": 9.0,
+        "ta": 15,
+        "inactive": 1
+      }
+    }
   }
 ]
