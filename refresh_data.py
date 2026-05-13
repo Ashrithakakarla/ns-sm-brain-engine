@@ -18,9 +18,9 @@ BATCH_CONFIGS = {
        "February 2026 SQL": {"au_id": 2622, "lu_id": 3380},
        "Jan 2026 SQL": {"au_id": 2621, "lu_id": 3327},
        # "March 2026 Spreadsheets": {"au_id": 3240, "lu_id": 3355},
-       "April 2026 Spreadsheets": {"au_id": 3241, "lu_id": 3402},
-       "May 2026 Spreadsheets": {"au_id": 3242, "lu_id": 3478},
-       "March 2026 SQL": {"au_id": 3240, "lu_id": 3461}
+       # "April 2026 Spreadsheets": {"au_id": 3241, "lu_id": 3402},
+       "May 2026 Spreadsheets": {"au_id": 3242, "lu_id": 3478}
+       # "March 2026 SQL": {"au_id": 3240, "lu_id": 3461}
 
       }
 EXCLUDED_LABELS = (677, 717, 722)
@@ -254,7 +254,7 @@ JOIN assignments_assignmentcourseusermapping ON assignments_assignmentcourseuser
 JOIN assignments_assignment
     ON assignments_assignment.id = assignments_assignmentcourseusermapping.assignment_id
     AND assignments_assignment.original_assignment_type = 1
-    AND assignments_assignment.assignment_sub_type IN (1, 2)
+    AND assignments_assignment.assignment_sub_type IN (2, 3)
 
 JOIN assignments_assignmentquestionmapping
     ON assignments_assignmentquestionmapping.assignment_id = assignments_assignment.id
@@ -306,8 +306,10 @@ ORDER BY
                 "avg_time_mins":   round(float(r["avg_time_mins"]), 1) if r.get("avg_time_mins") is not None else None,
                 "last_solved_date":str(r.get("last_solved_date") or "") or None,
             }
-            if sub == 2: app_by.setdefault(uid, []).append(entry)
-            else:        learn_by.setdefault(uid, []).append(entry)
+            if sub == 3:  # Post-class (Application) questions
+                app_by.setdefault(uid, []).append(entry)
+            else:  # Sub-types 1 (Learn) and 2 (In-class) are learning questions
+                learn_by.setdefault(uid, []).append(entry)
         return learn_by, app_by
     except Exception as e:
         log(f"    WARNING: asgn detail — {e}"); return {}, {}

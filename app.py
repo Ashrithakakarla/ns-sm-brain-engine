@@ -460,45 +460,95 @@ def build_gpt_prompt(student):
         # ── RULE 4: Phase 5 — Post Mid MC triage ─────────────────────────────
         elif phase == 5:
             mid_pl = SQL_MODULE_CONFIG["contest_playlists"]["mid_mc2"]
+            main_pl = SQL_MODULE_CONFIG["contest_playlists"]["main_mc1"]
+
+            # Check if Mid MC is cleared
+            mid_mc_cleared = mid_mc_attempted and mid_n is not None and mid_n >= 64
+
+            # CASE 1: Main MC already cleared (highest priority)
             if final_mc_cleared:
-                dyn_p0_label  = "MID MC CLEARED — MAIN MC PREP"
+                dyn_p0_label  = "MAIN MC CLEARED ✓"
                 dyn_p0_detail = (
-                    "Mid MC cleared ✓ — great practice run! "
-                    f"Now push Main MC prep: {', '.join(SQL_MODULE_CONFIG['contest_playlists']['main_mc1'][:3])}."
+                    f"Main MC cleared ✓ (Best: {max(mc1_n or 0, mc2_n or 0)}/100). "
+                    "Excellent work! Focus on project or maintain sharpness."
                 )
-                dyn_p1_label  = "ASSIGNMENT COMPLETION"
+                dyn_p1_label  = "ASSIGNMENT + PROJECT"
                 dyn_p1_detail = (
                     f"Assignment {real_asgn_pct}%. "
-                    + (f"Pending: {', '.join(topics_pending[:3])}." if topics_pending else "All done ✓.")
+                    + (f"Pending: {', '.join(topics_pending[:3])}." if topics_pending else "All done ✓. ")
+                    + ("Project prep." if proj_released else "Stay sharp for project release.")
                 )
-            elif mid_mc_attempted:
-                need = round(64-mid_n,1) if mid_n else "—"
+
+            # CASE 2: Mid MC CLEARED (≥64) → Recommend MAIN MC prep
+            elif mid_mc_cleared:
+                dyn_p0_label  = "MID MC CLEARED ✓ — FOCUS ON MAIN MC PREP"
+                dyn_p0_detail = (
+                    f"Mid MC cleared ✓ ({mid_n}/100). Great practice run! "
+                    f"Now focus on MAIN MC {cw} — this is the real exam. "
+                    + (f"Push: {', '.join(main_pl[:3])}." if can_push
+                       else f"Assignment {real_asgn_pct}% — complete to ≥80% first, then push playlists.")
+                )
+                dyn_p1_label  = "KEY ASSIGNMENTS FOR MAIN MC"
+                dyn_p1_detail = (
+                    f"Critical topics for Main MC: {', '.join(sql_imp[:3])}. "
+                    "These patterns appear in Main MC. "
+                    + (f"Book TA for: {', '.join(topics_pending[:2])}." if ta_needed else "On track ✓")
+                )
+
+            # CASE 3: Mid MC FAILED (<64) → Recommend Mid MC Attempt 2
+            elif mid_mc_attempted and mid_n < 64:
+                need = round(64 - mid_n, 1)
                 if can_push:
-                    dyn_p0_label  = "MID MC 1 FAILED — PUSH PLAYLIST + MID MC 2"
+                    dyn_p0_label  = "MID MC FAILED — ATTEMPT MID MC 2"
                     dyn_p0_detail = (
-                        f"Mid MC 1: {mid_n}/100 (need +{need} pts). Assignment ≥80% ✓. "
-                        f"Push: {', '.join(mid_pl)}. Target ≥64 on Mid MC 2."
+                        f"Mid MC 1: {mid_n}/100 (need +{need} pts to clear). "
+                        f"Assignment ≥80% ✓. Push Mid MC 2 playlists: {', '.join(mid_pl)}. "
+                        "Clear Mid MC (≥64) before focusing on Main MC."
                     )
                 else:
-                    dyn_p0_label  = "MID MC 1 FAILED — FIX ASSIGNMENT FIRST"
+                    dyn_p0_label  = "MID MC FAILED — FIX ASSIGNMENT FIRST"
                     dyn_p0_detail = (
-                        f"Mid MC 1: {mid_n}/100. Assignment {real_asgn_pct}% < 80% — "
-                        f"complete topics first: {', '.join(topics_pending[:3])}. "
+                        f"Mid MC 1: {mid_n}/100 (need +{need} pts). "
+                        f"Assignment {real_asgn_pct}% < 80% — complete topics first: {', '.join(topics_pending[:3])}. "
                         + (f"Book TA for: {', '.join(topics_pending[:2])}." if ta_needed else "")
                     )
                 dyn_p1_label  = "MID MC 2 PREP"
                 dyn_p1_detail = (
-                    f"Mid MC 2 playlists: {', '.join(mid_pl)}. "
-                    "Practice previous Mid MC questions. Target ≥64/100."
+                    "Mid MC 2 prep: " + ', '.join(mid_pl) + ". "
+                    "Review Mid MC 1 mistakes. Practice previous Mid MC questions. Target ≥64/100."
                 )
+
+            # CASE 4: Did NOT attempt Mid MC → Recommend Mid MC 2 (or Main MC if too late)
             else:
-                dyn_p0_label  = "DID NOT ATTEMPT MID MC 1 — WARNING"
-                dyn_p0_detail = (
-                    "Understand why student missed Mid MC 1. Give clear warning. "
-                    "Push Mid MC 2 urgently — this is the last practice before Main MC."
-                )
-                dyn_p1_label  = "MID MC 2 PREP"
-                dyn_p1_detail = f"Push: {', '.join(mid_pl)}. Assignment {real_asgn_pct}%."
+                if mc1_held:
+                    # Main MC already started, skip Mid MC
+                    dyn_p0_label  = "MAIN MC STARTED — FOCUS ON MAIN MC"
+                    dyn_p0_detail = (
+                        f"Main MC {cw}. Mid MC not attempted. "
+                        f"Focus directly on Main MC prep now. "
+                        + (f"Push: {', '.join(main_pl[:3])}" if can_push
+                           else f"Complete assignment first ({real_asgn_pct}%)")
+                    )
+                    dyn_p1_label  = "KEY ASSIGNMENTS"
+                    dyn_p1_detail = (
+                        f"Focus: {', '.join(sql_imp[:3])}. "
+                        + (f"Book TA: {', '.join(topics_pending[:2])}." if ta_needed else "On track ✓")
+                    )
+                else:
+                    # Mid MC 2 still available
+                    dyn_p0_label  = "DID NOT ATTEMPT MID MC — WARNING"
+                    dyn_p0_detail = (
+                        "Understand why student missed Mid MC 1. Give clear warning. "
+                        f"Mid MC 2 {cw} — this is practice before Main MC. "
+                        + (f"Push: {', '.join(mid_pl)}" if can_push
+                           else f"Complete assignment first ({real_asgn_pct}%)")
+                    )
+                    dyn_p1_label  = "MID MC 2 PREP"
+                    dyn_p1_detail = (
+                        f"Assignment {real_asgn_pct}%. "
+                        f"Focus: {', '.join(topics_pending[:3])}. "
+                        + (f"Book TA." if ta_needed else "On track ✓")
+                    )
 
         # ── RULE 5: Phase 4 — Mid MC prep ────────────────────────────────────
         elif phase == 4:
@@ -527,19 +577,43 @@ def build_gpt_prompt(student):
         # ── RULE 6: Phase 6 — Main MC prep ───────────────────────────────────
         elif phase == 6:
             main_pl = SQL_MODULE_CONFIG["contest_playlists"]["main_mc1"]
-            dyn_p0_label  = "MAIN MC 1 PREP — NORTH STAR"
-            dyn_p0_detail = (
-                f"{cw}. "
-                + (f"Push: {', '.join(main_pl)} + re-practice weak questions" if can_push
-                   else f"Assignment {real_asgn_pct}% < 80% — topics first")
-                + f". 7 key assignments: {', '.join(sql_imp[:3])}…"
-            )
-            dyn_p1_label  = "KEY ASSIGNMENTS + WEAK TOPICS"
-            dyn_p1_detail = (
-                f"Push: {', '.join(sql_imp[:4])}. "
-                "These map directly to Main MC patterns. "
-                + (f"Book TA for: {', '.join(topics_pending[:2])}." if ta_needed else "")
-            )
+            mid_pl = SQL_MODULE_CONFIG["contest_playlists"]["mid_mc2"]
+
+            # Check if Mid MC cleared
+            mid_mc_cleared = mid_mc_attempted and mid_n is not None and mid_n >= 64
+
+            if mid_mc_cleared or mc1_held:
+                # Mid MC cleared OR Main MC already started → Full Main MC prep
+                dyn_p0_label  = "MAIN MC PREP — NORTH STAR"
+                dyn_p0_detail = (
+                    f"{cw}. "
+                    + ("Mid MC cleared ✓. " if mid_mc_cleared else "")
+                    + (f"Push: {', '.join(main_pl)} + re-practice weak questions" if can_push
+                       else f"Assignment {real_asgn_pct}% < 80% — complete topics first")
+                    + f". Key assignments: {', '.join(sql_imp[:3])}…"
+                )
+                dyn_p1_label  = "KEY ASSIGNMENTS + WEAK TOPICS"
+                dyn_p1_detail = (
+                    f"Critical: {', '.join(sql_imp[:4])}. "
+                    "These map directly to Main MC patterns. "
+                    + (f"Book TA for: {', '.join(topics_pending[:2])}." if ta_needed else "On track ✓")
+                )
+            else:
+                # Mid MC not cleared yet → Must clear Mid MC first
+                dyn_p0_label  = "⚠️ MID MC NOT CLEARED — CLEAR THIS FIRST"
+                dyn_p0_detail = (
+                    f"Mid MC: {mid_str} — NOT cleared yet. "
+                    f"Must clear Mid MC (≥64/100) before Main MC prep. "
+                    + (f"Push: {', '.join(mid_pl)}" if can_push
+                       else f"Complete assignment first ({real_asgn_pct}%)")
+                )
+                dyn_p1_label  = "MID MC CLEARANCE + ASSIGNMENT"
+                dyn_p1_detail = (
+                    f"Assignment {real_asgn_pct}%. "
+                    f"Focus: {', '.join(topics_pending[:3])}. "
+                    + (f"Book TA for: {', '.join(topics_pending[:2])}." if ta_needed else "")
+                    + " Mid MC is the foundation for Main MC success."
+                )
 
         # ── RULE 7: Phase 1/2/3 — progressive foundation ─────────────────────
         else:
@@ -562,21 +636,48 @@ def build_gpt_prompt(student):
                 )
 
         # SQL-specific prompt additions
+        mid_mc_cleared = mid_mc_attempted and mid_n is not None and mid_n >= 64
+
         sql_contest_rules = f"""
 CONTEST HIERARCHY (SQL): Main MC2 > Main MC1 > Mid MC2 > Mid MC1.
-North star = clear Main MC1 OR Main MC2 (≥64/100).
-Mid MC = practice run only. NEVER recommend Mid MC prep if Main MC already held.
+
+CRITICAL RECOMMENDATION RULE:
+✅ Mid MC CLEARED (≥64) → Recommend MAIN MC prep
+❌ Mid MC FAILED (<64) → Recommend Mid MC Attempt 2 (must clear Mid MC first)
+⚠️ Mid MC NOT ATTEMPTED → Recommend Mid MC Attempt 2 (gateway to Main MC)
+
+NEVER recommend Main MC prep until Mid MC is cleared (≥64/100).
+Mid MC is the GATEWAY to Main MC prep.
+
+CURRENT STATUS:
+- Mid MC: {mid_str} {'✅ CLEARED' if mid_mc_cleared else '❌ NOT CLEARED'}
+- Main MC1: {mc1_str}
+- Main MC2: {mc2_str}
+
+WHAT TO RECOMMEND NOW:
+{"→ MAIN MC PREP (Mid MC cleared ✅)" if mid_mc_cleared else "→ MID MC ATTEMPT 2 (clear Mid MC first ❌)"}
+
 PLAYLIST GATE: NEVER push playlists if assignment <80%. Name assignment topics first.
 TA RULE: If TA=0 and any topics pending → MUST recommend booking TA.
+
+FAST SOLVED TOPICS (<3 min):
+If student has topics completed in <3 minutes → recommend: "Re-practice [topic names] — solved quickly, ensure deep understanding for MC."
+
+ALL TOPICS CLEARED:
+If ALL assignments done + MC cleared → SQL Intake Preparation Playlist.
+"Revise all module topics to maintain sharpness."
+
 PROJECT RULE: Only mention project if released (after class {SQL_MODULE_CONFIG['project_release_after']}).
   Score <8 + feedback received → resubmit implementing feedback.
   Score <8 + feedback unclear → book TA first to understand feedback.
   Not submitted → push submission now.
+
 CONTEST PREP PLAYLISTS:
   Mid MC 1:  {', '.join(SQL_MODULE_CONFIG['contest_playlists']['mid_mc1'])}
   Mid MC 2:  {', '.join(SQL_MODULE_CONFIG['contest_playlists']['mid_mc2'])}
   Main MC 1: {', '.join(SQL_MODULE_CONFIG['contest_playlists']['main_mc1'])}
   Main MC 2: {', '.join(SQL_MODULE_CONFIG['contest_playlists']['main_mc2'])}
+
 INTAKE PLAYLIST: Only suggest SQL Intake Playlist when ALL THREE true:
   1. Main MC cleared (≥64/100)  2. Project cleared (≥8/10)  3. All assignments done."""
 
