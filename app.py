@@ -1546,12 +1546,28 @@ function renderContests(conts){
     const cl=n>=64,scol=cl?'var(--green)':n>=45?'var(--amber)':'var(--red)';
     return`<div class="ct-card"><div class="ct-hdr"><div><div class="ct-title">${label}</div><div class="ct-score-label">${(c.date||'').slice(0,10)||'—'}</div></div><div style="text-align:right"><span class="${cl?'clr-y':'clr-n'}">${cl?'CLEARED':'BELOW 64'}</span><div class="ct-score-100" style="color:${scol}">${n}<span style="font-size:11px;color:var(--muted)">/100</span></div></div></div><div class="ct-body"><div class="ct-sect">MCQ</div><div class="ct-row"><span class="ct-k">Score</span><span class="ct-v">${c.mcq_score!=null?c.mcq_score:'—'}/100</span></div><div class="ct-row"><span class="ct-k">Questions</span><span class="ct-v">${c.mcq_marked_qs||0}/${c.mcq_total_qs||0} · ${c.mcq_correct_qs||0} correct</span></div><div class="ct-sect">Coding</div><div class="ct-row"><span class="ct-k">Score</span><span class="ct-v">${c.coding_score!=null?c.coding_score:'—'}/100</span></div><div class="ct-row"><span class="ct-k">Problems</span><span class="ct-v">${c.coding_qs_completed||0}/${c.coding_total_qs||0}</span></div><div class="ct-sect">Total</div><div class="ct-row"><span class="ct-k">MCQ×0.4 + Code×0.6</span><span class="ct-v" style="color:${scol};font-weight:700">${n}/100</span></div></div></div>`;
   }
+  
+  // Determine course type from current student's batch
+  const batch=(_curSt.batch||'').toLowerCase();
+  const isSQL=batch.includes('sql');
+  const isSpreadsheets=batch.includes('spreadsheet');
+  
+  // Build cards based on course type
+  let cardsHtml='';
+  if(isSQL){
+    // SQL: 4 cards (Mid MC 1, Mid MC 2, Main MC 1, Main MC 2)
+    cardsHtml=card(conts.mid_mc1,'Mid Module Contest 1')+card(conts.mid_mc2,'Mid Module Contest 2')+card(conts.mc1,'Main MC 1 ← REAL EXAM')+card(conts.mc2,'Main MC 2 ← REAL EXAM');
+  }else{
+    // Spreadsheets/Default: 3 cards (Mid MC, Main MC 1, Main MC 2)
+    cardsHtml=card(conts.mid_mc,'Mid Module Contest')+card(conts.mc1,'Main MC 1 ← REAL EXAM')+card(conts.mc2,'Main MC 2 ← REAL EXAM');
+  }
+  
   const mc1n=norm(conts.mc1),mc2n=norm(conts.mc2);
   const finalCleared=(mc1n!=null&&mc1n>=64)||(mc2n!=null&&mc2n>=64);
   const banner=finalCleared
     ?`<div style="background:#071a10;border:1px solid #0d3520;border-radius:5px;padding:8px 12px;margin-bottom:10px;font-size:11px;font-family:'IBM Plex Mono',monospace;color:var(--green)">✓ MODULE CLEARED — ${mc1n!=null&&mc1n>=64?'MC1: '+mc1n:'MC2: '+mc2n}/100 ≥ 64</div>`
     :`<div style="background:#1c0a0a;border:1px solid #3d1010;border-radius:5px;padding:8px 12px;margin-bottom:10px;font-size:11px;font-family:'IBM Plex Mono',monospace;color:var(--amber)">⚠ Module not yet cleared — need MC1 or MC2 ≥ 64/100</div>`;
-  return banner+`<div class="ct-grid">${card(conts.mid_mc1,'Mid MC — Attempt 1')}${conts.mid_mc2?card(conts.mid_mc2,'Mid MC — Attempt 2'):''}${card(conts.mc1,'Main MC 1 ← REAL EXAM')}${card(conts.mc2,'Main MC 2 ← REAL EXAM')}</div>`;
+  return banner+`<div class="ct-grid">${cardsHtml}</div>`;
 }
 
 function renderProject(proj){
@@ -1621,8 +1637,29 @@ function renderBatch(){
   const getWorst=(k,lb)=>{const v=bd.map(b=>b[k]);return lb?Math.max(...v):Math.min(...v);};
   const cardsHtml=bd.map(b=>`<div class="bc-card"><div class="bc-hdr"><div class="bc-name">${b.name.replace(' 2026','')}</div><div class="bc-meta">Ph${b.ph} · C${b.cl} · ${b.count} students</div></div><div class="bc-body">${[['Risk',b.avgRisk,b.avgRisk>=75?'var(--red)':b.avgRisk>=55?'var(--amber)':'var(--green)'],['Attendance',b.avgAtt,bc(b.avgAtt)],['Assignment',b.avgAsgn,bc(b.avgAsgn)],['MC Score',b.avgMC,b.avgMC>=64?'var(--green)':b.avgMC>0?'var(--amber)':'var(--red)']].map(([lbl,val,col])=>`<div class="bc-bar"><div class="bc-bar-lbl">${lbl}</div><div class="bc-bar-bg"><div class="bc-bar-fill" style="width:${Math.min(val,100)}%;background:${col}"></div></div><div class="bc-bar-val" style="color:${col}">${val}</div></div>`).join('')}<div class="bc-badges"><div class="bc-badge"><div class="bc-bv" style="color:var(--red)">${b.high}</div><div class="bc-bl">High Risk</div></div><div class="bc-badge"><div class="bc-bv" style="color:${b.cleared>0?'var(--green)':'var(--muted)'}">${b.cleared}</div><div class="bc-bl">MC Cleared</div></div><div class="bc-badge"><div class="bc-bv" style="color:${b.ghost>0?'var(--red)':'var(--green)'}">${b.ghost}</div><div class="bc-bl">Ghosts</div></div><div class="bc-badge"><div class="bc-bv" style="color:${b.avgInact>=14?'var(--red)':b.avgInact>=7?'var(--amber)':'var(--green)'}">${b.avgInact}d</div><div class="bc-bl">Avg Inactive</div></div></div></div></div>`).join('');
   const cmpRows=metrics.map(m=>{const best=getBest(m.k,m.lb),worst=getWorst(m.k,m.lb);return`<tr><td>${m.l}</td>${bd.map(b=>{const v=b[m.k];const isBest=v===best,isWorst=v===worst&&best!==worst;return`<td class="${isBest?'best':isWorst?'worst':''}">${v}${m.u}</td>`;}).join('')}</tr>`;}).join('');
-  const ctRows=['mid_mc1','mid_mc2','mc1','mc2'].map(ct=>{const labels={mid_mc1:'Mid MC 1',mid_mc2:'Mid MC 2',mc1:'Main MC 1',mc2:'Main MC 2'};return`<tr><td>${labels[ct]}</td>${bd.map(b=>{const mod0=getMod(b.ss[0]||{});const att=b.ss.filter(s=>getMod(s).contests?.[ct]?.normalized_score!=null);const clr=att.filter(s=>getMod(s).contests?.[ct]?.normalized_score>=64);const nh=b.ss.every(s=>getMod(s).contests?.[ct]===null);if(nh)return`<td style="color:var(--muted)">—</td>`;if(!att.length)return`<td style="color:var(--muted)">0 attempted</td>`;const avg=Math.round(att.reduce((a,s)=>a+(getMod(s).contests[ct].normalized_score||0),0)/att.length);return`<td><span style="font-weight:700">${avg}/100</span> <span style="color:var(--muted);font-size:10px">${clr.length}/${att.length} cleared</span></td>`;}).join('')}</tr>`;}).join('');
-  document.getElementById('batchContent').innerHTML=`<div class="batch-hdr">Batch Analytics</div><div class="batch-sub">${STUDS.length} students across ${bd.length} batches</div><div class="bc-grid">${cardsHtml}</div><div class="cmp-section"><div class="cmp-hdr">📊 Cross-Batch Comparison <span style="font-size:10px;color:var(--muted);font-weight:400">green=best · red=worst</span></div><table class="cmp-tbl"><thead><tr><th>Metric</th>${bd.map(b=>`<th>${b.name.replace(' 2026','')}</th>`).join('')}</tr></thead><tbody>${cmpRows}</tbody></table></div><div class="cmp-section"><div class="cmp-hdr">🏆 Contest Clearance</div><table class="cmp-tbl"><thead><tr><th>Contest</th>${bd.map(b=>`<th>${b.name.replace(' 2026','')}</th>`).join('')}</tr></thead><tbody>${ctRows}</tbody></table></div>`;
+  const ctRows=bd.map(b=>{
+    const batchLower=b.name.toLowerCase();
+    const isSQL=batchLower.includes('sql');
+    const contestKeys=isSQL?['mid_mc1','mid_mc2','mc1','mc2']:['mid_mc','mc1','mc2'];
+    const labels=isSQL?{mid_mc1:'Mid MC 1',mid_mc2:'Mid MC 2',mc1:'Main MC 1',mc2:'Main MC 2'}:{mid_mc:'Mid MC',mc1:'Main MC 1',mc2:'Main MC 2'};
+    return{batch:b.name,contestKeys,labels};
+  });
+  // Get all unique contest types across batches (union of all keys)
+  const allContestKeys=[...new Set(ctRows.flatMap(r=>r.contestKeys))];
+  const contestRowsHtml=allContestKeys.map(ct=>{
+    return`<tr><td>${ctRows[0]?.labels[ct]||ct}</td>${bd.map((b,i)=>{
+      const batchContests=ctRows[i];
+      if(!batchContests.contestKeys.includes(ct))return`<td style="color:var(--muted)">N/A</td>`;
+      const att=b.ss.filter(s=>getMod(s).contests?.[ct]?.normalized_score!=null);
+      const clr=att.filter(s=>getMod(s).contests?.[ct]?.normalized_score>=64);
+      const nh=b.ss.every(s=>getMod(s).contests?.[ct]===null);
+      if(nh)return`<td style="color:var(--muted)">—</td>`;
+      if(!att.length)return`<td style="color:var(--muted)">0 attempted</td>`;
+      const avg=Math.round(att.reduce((a,s)=>a+(getMod(s).contests[ct].normalized_score||0),0)/att.length);
+      return`<td><span style="font-weight:700">${avg}/100</span> <span style="color:var(--muted);font-size:10px">${clr.length}/${att.length} cleared</span></td>`;
+    }).join('')}</tr>`;
+  }).join('');
+  document.getElementById('batchContent').innerHTML=`<div class="batch-hdr">Batch Analytics</div><div class="batch-sub">${STUDS.length} students across ${bd.length} batches</div><div class="bc-grid">${cardsHtml}</div><div class="cmp-section"><div class="cmp-hdr">📊 Cross-Batch Comparison <span style="font-size:10px;color:var(--muted);font-weight:400">green=best · red=worst</span></div><table class="cmp-tbl"><thead><tr><th>Metric</th>${bd.map(b=>`<th>${b.name.replace(' 2026','')}</th>`).join('')}</tr></thead><tbody>${cmpRows}</tbody></table></div><div class="cmp-section"><div class="cmp-hdr">🏆 Contest Clearance</div><table class="cmp-tbl"><thead><tr><th>Contest</th>${bd.map(b=>`<th>${b.name.replace(' 2026','')}</th>`).join('')}</tr></thead><tbody>${contestRowsHtml}</tbody></table></div>`;
 }
 
 document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.getElementById('infoModal').classList.remove('open');document.getElementById('tokenModal').classList.remove('open');}});
